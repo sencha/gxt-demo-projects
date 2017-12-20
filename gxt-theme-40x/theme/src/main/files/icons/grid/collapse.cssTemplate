@@ -1,0 +1,3 @@
+* {
+  fill: <%= config.get('theme.details.grid.collapseIconColor').resolveString() %>;
+}
