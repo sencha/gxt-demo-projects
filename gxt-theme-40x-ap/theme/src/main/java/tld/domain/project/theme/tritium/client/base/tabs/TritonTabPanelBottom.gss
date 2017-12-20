@@ -1,0 +1,15 @@
+.tabStrip .tabStripClosable a.tabStripClose {
+  background-position: right center;
+}
+
+.tabStrip .tabStripClosable a.tabStripClose:hover {
+  background-position: right center;
+}
+
+.tabStrip .tabStripActive.tabStripClosable a.tabStripClose {
+  background-position: right center;
+}
+
+.tabStrip .tabStripActive.tabStripClosable a.tabStripClose:hover {
+  background-position: right center;
+}
