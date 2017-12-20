@@ -1,4 +1,4 @@
-# GXT Basic Archetype
-This is a very basic GXT Archetype. 
+# GXT Basic Project
+This is a very basic GXT Project template. 
 
 
