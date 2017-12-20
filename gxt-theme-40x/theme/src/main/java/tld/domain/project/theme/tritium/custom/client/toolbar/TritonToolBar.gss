@@ -1,0 +1,7 @@
+@external x-paging-toolbar-mark;
+
+.toolBar.x-paging-toolbar-mark {
+  border-style: solid;
+  border-color: #d0d0d0;
+  border-width: 1px 0px 0px 0px;
+}
