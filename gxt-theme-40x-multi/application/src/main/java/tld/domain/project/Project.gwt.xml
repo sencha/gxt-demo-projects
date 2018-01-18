@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.7.0//EN"
+  "http://gwtproject.org/doctype/2.7.0/gwt-module.dtd">
+<module rename-to='project'>
+  <!-- Inherit the core Web Toolkit stuff. -->
+  <inherits name='com.google.gwt.user.User' />
+
+  <!-- Other module inherits -->
+  <inherits name='com.sencha.gxt.ui.GXT' />
+
+  <!-- GXT Normalizing Stylesheet -->
+  <stylesheet src="reset.css" />
+
+  <!-- GXT Theme -->
+  <!-- <inherits name='com.sencha.gxt.theme.blue.Blue'/> -->
+  <!-- <inherits name='com.sencha.gxt.theme.gray.Gray' /> -->
+  <!-- <inherits name="com.sencha.gxt.theme.neptune.Theme" /> -->
+  <!-- <inherits name="com.sencha.gxt.theme.triton.Theme" /> -->
+  <inherits name="tld.domain.project.theme.theme1.Theme" />
+  <inherits name="tld.domain.project.theme.theme2.Theme" />
+
+  <!-- Specify the app entry point class. -->
+  <entry-point class='tld.domain.project.client.ProjectEntryPoint' />
+
+  <!-- Specify the paths for translatable code -->
+  <source path='client' />
+  <source path='shared' />
+  
+  <!-- Logging options -->
+  <!-- <set-property name="gwt.logging.logLevel" value="INFO"/> -->
+  <!-- <set-property name="gwt.logging.enabled" value="TRUE"/> -->  
+  <!-- <set-property name="gxt.logging.enabled" value="true" />  -->
+  
+  <!-- Shrink the amount of permutations compiled -->
+  <collapse-property name="gxt.device" values="phone, tablet" />
+  <!-- <collapse-property name="gxt.theme" values="blue, gray" /> -->
+  <collapse-property name="gxt.user.agent" values="air, safari*, chrome*, gecko*, ie11" />
+  <collapse-property name="user.agent" values="safari*, gecko*" />
+  <collapse-property name="gxt.user.agent" values="ie8, ie9, ie10" />
+  <collapse-property name="user.agent" values="ie*" />
+  
+  <set-property name="gxt.theme" value="theme1,theme2" />
+  <property-provider name="gxt.theme"><![CDATA[
+    function getCookie(cname) {
+        var name = cname + "=";
+        var decodedCookie = decodeURIComponent(document.cookie);
+        var ca = decodedCookie.split(';');
+        for(var i = 0; i <ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(name) == 0) {
+                return c.substring(name.length, c.length);
+            }
+        }
+        return "";
+    }
+    
+    var theme = getCookie("theme");
+    
+    console.log("theme set theme=" + theme);
+    
+    // Not selected
+    if (theme == null) {
+      return "theme1";
+    }
+
+    // Theme 1
+    if (theme.indexOf('theme1') != -1) {
+      console.log("return theme1");
+      return "theme1";
+    }
+    
+    // Theme2
+    if (theme.indexOf('theme2') != -1) {
+      console.log("return theme2");
+      return "theme2";
+    }
+    
+    return "theme1";
+  ]]></property-provider>
+  
+</module>

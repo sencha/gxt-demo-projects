@@ -1,0 +1,16 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder" 
+  xmlns:g="urn:import:com.google.gwt.user.client.ui"
+  xmlns:container="urn:import:com.sencha.gxt.widget.core.client.container" 
+  xmlns:gxt="urn:import:com.sencha.gxt.widget.core.client"
+  xmlns:toolbar="urn:import:com.sencha.gxt.widget.core.client.toolbar" 
+  xmlns:menu="urn:import:com.sencha.gxt.widget.core.client.menu"
+  xmlns:button="urn:import:com.sencha.gxt.widget.core.client.button"
+  xmlns:form='urn:import:com.sencha.gxt.widget.core.client.form' >
+
+  <container:SimpleContainer>
+    <g:HTMLPanel>
+      Grid
+    </g:HTMLPanel>
+  </container:SimpleContainer>
+</ui:UiBinder>

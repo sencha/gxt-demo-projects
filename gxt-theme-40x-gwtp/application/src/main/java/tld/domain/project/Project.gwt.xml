@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.7.0//EN"
+  "http://gwtproject.org/doctype/2.7.0/gwt-module.dtd">
+<module rename-to='project'>
+  <!-- Inherit the core Web Toolkit stuff. -->
+  <inherits name='com.google.gwt.user.User' />
+
+  <!-- Other module inherits -->
+  <inherits name='com.sencha.gxt.ui.GXT' />
+
+  <!-- GXT Normalizing Stylesheet -->
+  <stylesheet src="reset.css" />
+
+  <!-- GXT Theme -->
+  <!-- <inherits name='com.sencha.gxt.theme.blue.Blue'/> -->
+  <!-- <inherits name='com.sencha.gxt.theme.gray.Gray' /> -->
+  <!-- <inherits name="com.sencha.gxt.theme.neptune.Theme" /> -->
+  <!-- <inherits name="com.sencha.gxt.theme.triton.Theme" /> -->
+  <inherits name="tld.domain.project.theme.tritium.Theme" />
+
+  <!--GWT Platform -->
+  <inherits name="com.gwtplatform.mvp.MvpWithEntryPoint"/>
+  <extend-configuration-property name="gin.ginjector.modules"
+                                 value="tld.domain.project.client.gin.ClientModule"/>
+
+  <!-- Specify the paths for translatable code -->
+  <source path='client' />
+  <source path='shared' />
+
+  <!-- Logging options -->
+  <!-- <set-property name="gwt.logging.logLevel" value="INFO"/> -->
+  <!-- <set-property name="gwt.logging.enabled" value="TRUE"/> -->
+  <!-- <set-property name="gxt.logging.enabled" value="true" /> -->
+
+  <!-- Shrink the amount of permutations compiled -->
+  <collapse-property name="gxt.device" values="phone, tablet" />
+  <!-- <collapse-property name="gxt.theme" values="blue, gray" /> -->
+  <collapse-property name="gxt.user.agent" values="air, safari*, chrome*, gecko*, ie11" />
+  <collapse-property name="user.agent" values="safari*, gecko*" />
+  <collapse-property name="gxt.user.agent" values="ie8, ie9, ie10" />
+  <collapse-property name="user.agent" values="ie*" />
+
+</module>

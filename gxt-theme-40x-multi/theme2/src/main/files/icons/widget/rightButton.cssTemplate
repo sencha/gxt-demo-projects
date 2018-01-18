@@ -1,0 +1,4 @@
+
+* {
+  fill: <%= config.get('theme.details.datePicker.monthRightButtonColor').resolveString() %>;
+}

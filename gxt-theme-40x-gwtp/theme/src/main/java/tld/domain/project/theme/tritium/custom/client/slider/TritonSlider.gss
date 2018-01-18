@@ -1,0 +1,7 @@
+.thumb {
+  background-size: 19px !important;
+}
+
+.thumbCenter {
+  background-color: transparent;
+}

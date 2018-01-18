@@ -1,0 +1,16 @@
+polyline {
+  fill: <%= config.get('theme.details.tip.backgroundColor').resolveString() %> !important;
+  stroke: <%= config.get('theme.details.tip.border.color').resolveString() %> !important;
+
+  /* width is calculated:
+       * 2 - scale.  svgs are twice as big as rendered
+       * 2 - because svg strokes are in the middle.  we have to double the stroke width and clip the outer
+  */
+
+  stroke-width: <%= config.get('theme.details.tip.border.top').resolveInt() * 4 %>px !important;
+}
+
+line {
+  stroke: <%= config.get('theme.details.tip.backgroundColor').resolveString() %> !important;
+  stroke-width: <%=  2 ** (4 - config.get('theme.details.tip.border.top').resolveInt()) %>px !important;
+}

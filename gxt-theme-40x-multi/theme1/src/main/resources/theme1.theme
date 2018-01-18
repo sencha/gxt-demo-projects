@@ -1,0 +1,1427 @@
+theme {
+  name = "theme1"
+  basePackage = "tld.domain.project.theme.theme1"
+  
+  borderColor = "#157FCC"
+  panelBackgroundColor = "#ffffff"
+  details {
+    backgroundColor = "#ffffff"
+    borderColor = "#5fa2dd"
+    disabledOpacity = 0.5
+    disabledTextColor = ""
+    accordionLayout {
+      backgroundColor = "#ffffff"
+      frameHeight = 0
+      frameWidth = 0
+      headerBackgroundColor = "#ECECEC"
+      headerGradient = "#ECECEC 0%, #ECECEC 100%"
+      headerLineHeight = "20px"
+      border {
+        bottom = 1
+        color = "#ffffff"
+        left = 0
+        right = 0
+        style = "solid"
+        top = 0
+      }
+      font {
+        color = "#666666"
+        family = "'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif"
+        size = "16px"
+        weight = "300"
+      }
+      headerPadding = util.padding(12, 10)
+      headerBarMargin = util.margin(0, 5, 0, 0)
+      padding {
+        bottom = 0
+        left = 0
+        right = 0
+        top = 0
+      }
+      panelPadding {
+        bottom = 5
+        left = 5
+        right = 5
+        top = 0
+      }
+      firstPanelPadding = util.padding(5)
+    }
+    borderLayout {
+      panelBackgroundColor = "#ececec"
+      collapsePanelBackgroundColor = "#5fa2dd"
+      collapsePanelBorder {
+        bottom = 0
+        color = "#5fa2dd"
+        left = 0
+        right = 0
+        style = "solid"
+        top = 0
+      }
+    }
+    button {
+      arrowColor = "#f0f0f0"
+      // backgroundColor = "#5fa2dd" // triton color
+      backgroundColor = "#0c263d"
+      borderRadius = 0
+      gradient = "#0c263d 0%, #0c263d 100%"
+      largeFontSize = "16"
+      largeLineHeight = "32"
+      mediumFontSize = "14"
+      mediumLineHeight = "24"
+      overBackgroundColor = "#5795CB"
+      overGradient = "#5795CB 0%, #5795CB  100%"
+      pressedBackgroundColor = "#477aa6"
+      pressedGradient = "#477aa6 0%, #477aa6 100%"
+      radiusMinusBorderWidth = util.radiusMinusBorderWidth(border, borderRadius)
+      smallFontSize = "12"
+      smallLineHeight = "18"
+      border {
+        bottom = 1
+        color = "#5897ce"
+        left = 1
+        right = 1
+        style = "solid"
+        top = 1
+      }
+      overBorder = util.border('solid', '#518BBD', 1)
+      pressedBorder = util.border('solid', '#42719A', 1)
+      font {
+        color = "#f0f0f0"
+        family = "'Open Sans','Helvetica Neue',helvetica,arial,verdana,sans-serif"
+        size = "12px"
+        weight = "300"
+      }
+      padding {
+        bottom = 7
+        left = 7
+        right = 7
+        top = 7
+      }
+    }
+    buttonGroup {
+      bodyBackgroundColor = "#FFFFFF"
+      borderRadius = 0
+      headerGradient = "#ffffff 0%, #ffffff 100%"
+      bodyPadding {
+        bottom = 8
+        left = 8
+        right = 8
+        top = 8
+      }
+      border {
+        bottom = 1
+        color = "#d0d0d0"
+        left = 1
+        right = 1
+        style = "solid"
+        top = 1
+      }
+      font {
+        color = "#606060"
+        family = "'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif"
+        size = "13px"
+        weight = "300"
+      }
+      headerPadding {
+        bottom = 7
+        left = 8
+        right = 8
+        top = 8
+      }
+    }
+    colorpalette {
+      backgroundColor = "#ffffff"
+      itemSize = 16
+      selectedBackgroundColor = "#e6e6e6"
+      itemBorder {
+        bottom = 1
+        color = "#e1e1e1"
+        left = 1
+        right = 1
+        style = "solid"
+        top = 1
+      }
+      itemPadding {
+        bottom = 2
+        left = 2
+        right = 2
+        top = 2
+      }
+      selectedBorder {
+        bottom = 1
+        color = "#8bb8f3"
+        left = 1
+        right = 1
+        style = "solid"
+        top = 1
+      }
+    }
+    datePicker {
+      additionalCssStyles = "x-toolbar-mark"
+      backgroundColor = "#ffffff"
+      dayDisabledBackgroundColor = "#ffffff"
+      dayLineHeight = "36px"
+      dayNextBackgroundColor = "#ffffff"
+      dayOfWeekBackgroundColor = "#ececec"
+      dayOfWeekLineHeight = "36px"
+      dayPreviousBackgroundColor = "#ffffff"
+      footerBackgroundColor = "#ffffff"
+      headerBackgroundColor = "#ececec"
+      itemOverBackgroundColor = "#ececec"
+      itemOverColor = "#404040"
+      itemSelectedBackgroundColor = "#5fa2dd"
+      monthLeftButtonColor = "#919191"
+      monthLeftButtonOpacity = 0.7
+      monthRightButtonColor = "#919191"
+      monthRightButtonOpacity = 0.7
+      width = "308px"
+      border {
+        bottom = 1
+        color = "#d0d0d0"
+        left = 1
+        right = 1
+        style = "solid"
+        top = 1
+      }
+      buttonMargin {
+        bottom = 0
+        left = 2
+        right = 3
+        top = 0
+      }
+      dayBorder {
+        bottom = 0
+        color = "#ffffff"
+        left = 0
+        right = 0
+        style = "solid"
+        top = 0
+      }
+      dayDisabledText {
+        color = "#d0d0d0"
+        family = "'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif"
+        size = "13px"
+        weight = "normal"
+      }
+      dayNextText {
+        color = "#bfbfbf"
+        family = "'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif"
+        size = "13px"
+        weight = "normal"
+      }
+      dayOfWeekPadding {
+        bottom = 0
+        left = 0
+        right = 15
+        top = 0
+      }
+      dayOfWeekText {
+        color = "#404040"
+        family = "'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif"
+        size = "13px"
+        weight = "normal"
+      }
+      dayPadding {
+        bottom = 0
+        left = 0
+        right = 15
+        top = 0
+      }
+      dayPreviousText = dayNextText
+      dayText {
+        color = "#404040"
+        family = "'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif"
+        size = "13px"
+        weight = "300"
+      }
+      footerPadding {
+        bottom = 6
+        left = 0
+        right = 0
+        top = 6
+      }
+      headerPadding {
+        bottom = 0
+        left = 0
+        right = 0
+        top = 0
+      }
+      headerText {
+        color = "#404040"
+        family = "'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif"
+        size = "15px"
+        weight = "400"
+      }
+      headerTextPadding {
+        bottom = 14
+        left = 14
+        right = 14
+        top = 14
+      }
+      itemOverBorder {
+        bottom = 0
+        color = "#ececec"
+        left = 0
+        right = 0
+        style = "solid"
+        top = 0
+      }
+      itemSelectedBorder {
+        bottom = 0
+        color = "#3892d3"
+        left = 0
+        right = 0
+        style = "solid"
+        top = 0
+      }
+      itemSelectedText {
+        color = "#ffffff"
+        family = "'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif"
+        size = "13px"
+        weight = "300"
+      }
+      monthLeftButtonMargin {
+        bottom = 0
+        left = 10
+        right = 0
+        top = 0
+      }
+      monthRightButtonMargin {
+        bottom = 0
+        left = 0
+        right = 10
+        top = 0
+      }
+      todayBorder {
+        bottom = 0
+        color = "#8b0000"
+        left = 0
+        right = 0
+        style = "solid"
+        top = 0
+      }
+    }
+    errortip = tip
+    field {
+      backgroundColor = "#ffffff"
+      borderColor = "#d0d0d0"
+      borderStyle = "solid"
+      borderWidth = 1
+      dualListFieldIconColor = "#919191"
+      emptyTextColor = "#a9a9a9"
+      focusBorderColor = "#3892d3"
+      height = 30
+      invalidBackgroundColor = "#ffffff"
+      invalidBorderColor = "#cf4c35"
+      invalidBorderWidth = 1
+      lineHeight = "30px"
+      checkBox {
+        boxLabel = text
+        padding {
+          bottom = 0
+          left = 22
+          right = 10
+          top = 0
+        }
+        color = "#919191"
+      }
+      radio {
+        boxLabel = text
+        padding {
+          bottom = 0
+          left = 22
+          right = 10
+          top = 0
+        }
+        color = "#919191"
+      }
+      padding {
+        bottom = 9
+        left = 10
+        right = 10
+        top = 8
+      }
+      sideLabel {
+        textAlign = "left"
+        fieldPadding {
+          bottom = 0
+          left = 0
+          right = 0
+          top = 0
+        }
+        labelPadding {
+          bottom = 0
+          left = 0
+          right = 5
+          top = 5
+        }
+        padding {
+          bottom = 10
+          left = 0
+          right = 0
+          top = 0
+        }
+        text {
+          color = "#404040"
+          family = "'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif"
+          size = "13px"
+          weight = "300"
+        }
+      }
+      slider {
+        thumbBackgroundColor = "#f6f6f6"
+        thumbHeight = 20
+        thumbRadius = 0
+        thumbWidth = 20
+        trackBackgroundColor = "#eeeeee"
+        trackHeight = 10
+        trackRadius = 0
+        thumbBorder {
+          bottom = 1
+          color = "#d0d0d0"
+          left = 1
+          right = 1
+          style = "solid"
+          top = 1
+        }
+        trackBorder {
+          bottom = 1
+          color = "#d0d0d0"
+          left = 1
+          right = 1
+          style = "solid"
+          top = 1
+        }
+      }
+      text {
+        color = "#404040"
+        family = "'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif"
+        size = "13px"
+        weight = "300"
+      }
+      topLabel {
+        textAlign = "left"
+        fieldPadding {
+          bottom = 0
+          left = 0
+          right = 0
+          top = 0
+        }
+        labelPadding {
+          bottom = 0
+          left = 0
+          right = 0
+          top = 6
+        }
+        padding {
+          bottom = 10
+          left = 0
+          right = 0
+          top = 0
+        }
+        text {
+          color = "#404040"
+          family = "'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif"
+          size = "13px"
+          weight = "300"
+        }
+      }
+      clearTriggerColor = "#919191"
+      dateTriggerColor = "#919191"
+      spinnerDownColor = "#919191"
+      spinnerUpColor = "#919191"
+      triggerArrowColor = "#919191"
+    }
+    fieldset {
+      backgroundColor = "#f6f6f6"
+      border {
+        bottom = 1
+        color = "#d0d0d0"
+        left = 1
+        right = 1
+        style = "solid"
+        top = 1
+      }
+      collapseIconColor = "#919191"
+      collapseOverIconColor = "#3892d4"
+      expandIconColor = collapseIconColor
+      expandOverIconColor = collapseOverIconColor
+      legendPadding {
+        bottom = 10
+        left = 5
+        right = 5
+        top = 10
+      }
+      padding {
+        bottom = 10
+        left = 15
+        right = 15
+        top = 5
+      }
+      text {
+        color = "#919191"
+        family = "'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif"
+        size = "16px"
+        weight = "400"
+      }
+    }
+    framedPanel {
+      backgroundColor = "#ffffff"
+      borderRadius = 0
+      frameHeight = 0
+      frameWidth = 0
+      headerBackgroundColor = "#5fa2dd"
+      headerGradient = "#5fa2dd 0%, #5fa2dd 100%"
+      headerLineHeight = "20px"
+      radiusMinusBorderWidth = util.radiusMinusBorderWidth(border, borderRadius)
+      border {
+        bottom = 2
+        color = "#5fa2dd"
+        left = 2
+        right = 2
+        style = "solid"
+        top = 2
+      }
+      font {
+        color = "#f0f0f0"
+        family = "'Open Sans','Helvetica Neue',helvetica,arial,verdana,sans-serif"
+        size = "16px"
+        weight = "400"
+      }
+      headerPadding {
+        bottom = 10
+        left = 14
+        right = 14
+        top = 10
+      }
+      padding {
+        bottom = 0
+        left = 0
+        right = 0
+        top = 0
+      }
+    }
+    grid {
+      bodyBorder {
+        bottom = 0
+        color = "#d0d0d0"
+        left = 0
+        right = 0
+        style = "solid"
+        top = 2
+      }
+      cellAltBackgroundColor = "#fafafa"
+      cellBackgroundColor = "#ffffff"
+      cellBorderWidth = 1
+      cellHBorderColor = "#e9e9e9"
+      cellLineHeight = "17px"
+      cellOverBackgroundColor = "#eaeff4"
+      cellOverHBorderColor = "#dee3e8"
+      cellOverHBorderStyle = "solid"
+      cellOverVBorderColor = "#dee3e8"
+      cellOverVBorderStyle = "solid"
+      cellSelectedBackgroundColor = "#ffefbc"
+      cellSelectedHBorderColor = "#f2e3b2"
+      cellSelectedHBorderStyle = "solid"
+      cellSelectedVBorderColor = "#f2e3b2"
+      cellSelectedVBorderStyle = "solid"
+      cellVBorderColor = "#e9e9e9"
+      specialColumnGradient = ""
+      specialColumnGradientSelected = ""
+      cellPadding {
+        bottom = 6
+        left = 10
+        right = 10
+        top = 7
+      }
+      cellText {
+        color = "#404040"
+        family = "'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif"
+        size = "13px"
+        weight = "300"
+      }
+      columnHeader {
+        backgroundColor = "#ffffff"
+        borderColor = "#c0c0c0"
+        borderStyle = "solid"
+        borderWidth = 1
+        gradient = "#ffffff 0%, #ffffff 100%"
+        lineHeight = "15px"
+        menuActiveBackgroundColor = "#DFEAF2"
+        menuActiveGradient = "#DFEAF2 0%, #DFEAF2 100%"
+        menuBackgroundColor = "#eaeff4"
+        menuButtonWidth = 18
+        menuGradient = "#eaeff4 0%, #eaeff4 100%"
+        menuHoverBackgroundColor = "#eaeff4"
+        menuHoverGradient = "#eaeff4 0%, #eaeff4 100%"
+        overBackgroundColor = "#eaeff4"
+        overGradient = "#eaeff4 0%, #eaeff4 100%"
+        menuActiveBorder = menuBorder
+        menuBorder {
+          bottom = 0
+          color = "#d0d0d0"
+          left = 1
+          right = 1
+          style = "solid"
+          top = 0
+        }
+        menuHoverBorder = menuBorder
+        padding {
+          bottom = 6
+          left = 10
+          right = 10
+          top = 7
+        }
+        text {
+          color = "#404040"
+          family = "'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif"
+          size = "13px"
+          weight = "normal"
+        }
+      }
+      footer {
+        backgroundColor = "#ffffff"
+        cellBorder {
+          bottom = 0
+          color = "#ededed"
+          left = 0
+          right = 0
+          style = "solid"
+          top = 1
+        }
+        text {
+          color = "#000000"
+          family = "'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif"
+          size = "13px"
+          weight = "bold"
+        }
+      }
+      group {
+        backgroundColor = "#f5f5f5"
+        iconSpacing = 17
+        border {
+          bottom = 1
+          color = "#c0c0c0"
+          left = 0
+          right = 0
+          style = "solid"
+          top = 0
+        }
+        padding {
+          bottom = 8
+          left = 4
+          right = 4
+          top = 8
+        }
+        summary {
+          backgroundColor = "#ffffff"
+          text {
+            color = "#000000"
+            family = "'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif"
+            size = "13px"
+            weight = "bold"
+          }
+        }
+        text = columnHeader.text
+      }
+      rowEditor {
+        backgroundColor = "#DFEAF2"
+        border {
+          bottom = 1
+          color = "#e1e1e1"
+          left = 0
+          right = 0
+          style = "solid"
+          top = 1
+        }
+      }
+      rowNumberer {
+        padding {
+          bottom = 4
+          left = 3
+          right = 3
+          top = 5
+        }
+        text {
+          color = "#000000"
+          family = "'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif"
+          size = "13px"
+          weight = "normal"
+        }
+      }
+      checkedIconColor = "#919191"
+      collapseIconColor = "#919191"
+      columnHeaderBtnIconColor = "#919191"
+      columnsIconColor = "#919191"
+      expandIconColor = "#919191"
+      groupByIconColor = "#919191"
+      sortAscendingIconColor = "#919191"
+      sortAscHeaderIconColor = "#919191"
+      sortDescendingIconColor = "#919191"
+      sortDescHeaderIconColor = "#919191"
+      uncheckedIconColor = "#919191"
+    }
+    info {
+      backgroundColor = "#ffffff"
+      borderRadius = 0
+      opacity = 1
+      radiusMinusBorderWidth = util.radiusMinusBorderWidth(border, borderRadius)
+      border {
+        bottom = 3
+        color = "#5795cb"
+        left = 3
+        right = 3
+        style = "solid"
+        top = 2
+      }
+      headerPadding {
+        bottom = 8
+        left = 0
+        right = 0
+        top = 0
+      }
+      headerText {
+        color = "#555555"
+        family = "Tahoma, Arial, Verdana, sans-serif"
+        size = "15px"
+        weight = "bold"
+      }
+      margin {
+        bottom = 0
+        left = 0
+        right = 0
+        top = 2
+      }
+      messagePadding {
+        bottom = 0
+        left = 0
+        right = 0
+        top = 0
+      }
+      messageText {
+        color = "#555555"
+        family = "Tahoma, Arial, Verdana, sans-serif"
+        size = "14px"
+        weight = "normal"
+      }
+      padding {
+        bottom = 2
+        left = 7
+        right = 7
+        top = 2
+      }
+    }
+    listview {
+      backgroundColor = "#ffffff"
+      lineHeight = "22px"
+      border {
+        bottom = 1
+        color = "#e1e1e1"
+        left = 1
+        right = 1
+        style = "solid"
+        top = 1
+      }
+      item {
+        backgroundColor = "#ffffff"
+        gradient = "#ffffff 0%, #ffffff 100%"
+        border {
+          bottom = 0
+          color = "#000000"
+          left = 0
+          right = 0
+          style = "none"
+          top = 0
+        }
+        padding {
+          bottom = 0
+          left = 6
+          right = 6
+          top = 0
+        }
+      }
+      overItem {
+        backgroundColor = "#7fb5e4"
+        color = "#ffffff"
+        gradient = "#7fb5e4 0%, #7fb5e4 100%"
+        border {
+          bottom = 0
+          color = "#000000"
+          left = 0
+          right = 0
+          style = "none"
+          top = 0
+        }
+        padding {
+          bottom = 0
+          left = 6
+          right = 6
+          top = 0
+        }
+      }
+      selectedItem {
+        backgroundColor = "#7fb5e4"
+        color = "#ffffff"
+        gradient = "#7fb5e4 0%, #7fb5e4 100%"
+        border {
+          bottom = 0
+          color = "#000000"
+          left = 0
+          right = 0
+          style = "none"
+          top = 0
+        }
+        padding {
+          bottom = 0
+          left = 6
+          right = 6
+          top = 0
+        }
+      }
+      text {
+        color = "#000000"
+        family = "'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif"
+        size = "13px"
+        weight = "300"
+      }
+    }
+    mask {
+      backgroundColor = "#d0d0d0"
+      opacity = 0.5
+      box {
+        backgroundColor = "#d0d0d0"
+        borderColor = ""
+        borderRadius = 3
+        borderStyle = "none"
+        borderWidth = 0
+        loadingImagePosition = "center 0"
+        radiusMinusBorderWidth = util.max(0, borderRadius - borderWidth)
+        padding {
+          bottom = 5
+          left = 5
+          right = 5
+          top = 5
+        }
+        text {
+          color = "#666666"
+          family = "'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif"
+          size = "13px"
+          weight = "normal"
+        }
+        textPadding {
+          bottom = 0
+          left = 0
+          right = 0
+          top = 21
+        }
+      }
+    }
+    menu {
+      activeItemBackgroundColor = "#7fb5e4"
+      activeItemGradient = "#7fb5e4 0%, #7fb5e4 100%"
+      backgroundColor = "#ffffff"
+      checkedIconColor = "#919191"
+      gradient = "#ffffff 0%, #ffffff 100%"
+      itemLineHeight = "24px"
+      lastGradientColor = "#ffffff"
+      uncheckedIconColor = "#919191"
+      activeItemBorder {
+        bottom = 0
+        color = "#000000"
+        left = 0
+        right = 0
+        style = "none"
+        top = 0
+      }
+      activeItemText = {
+        color = "#ffffff"
+        family = "tahoma,arial,verdana,sans-serif"
+        size = "10px"
+        weight = "bold"
+      }
+      bar {
+        activeItemBackgroundColor = "#5fa2dd"
+        activeItemGradient = "#5fa2dd 0%, #5fa2dd 100%"
+        activeItemText = menu.activeItemText
+        backgroundColor = "#ffffff"
+        gradient = "#ffffff 0%, #ffffff 100%"
+        hoverItemBackgroundColor = "#5fa2dd"
+        hoverItemGradient = "#5fa2dd 0%, #5fa2dd 100%"
+        hoverItemText = menu.activeItemText
+        itemLineHeight = "24px"
+        activeItemBorder {
+          bottom = 0
+          color = "#000000"
+          left = 0
+          right = 0
+          style = "none"
+          top = 0
+        }
+        border {
+          bottom = 0
+          color = "#000000"
+          left = 0
+          right = 0
+          style = "none"
+          top = 0
+        }
+        hoverItemBorder {
+          bottom = 0
+          color = "#000000"
+          left = 0
+          right = 0
+          style = "none"
+          top = 0
+        }
+        itemPadding {
+          bottom = 1
+          left = 8
+          right = 8
+          top = 1
+        }
+        itemText = menu.itemText
+        padding {
+          bottom = 0
+          left = 0
+          right = 0
+          top = 0
+        }
+      }
+      border {
+        bottom = 1
+        color = "#e1e1e1"
+        left = 1
+        right = 1
+        style = "solid"
+        top = 1
+      }
+      header {
+        backgroundColor = "#5fa2dd"
+        itemLineHeight = "13px"
+        border {
+          bottom = 1
+          color = "#5fa2dd"
+          left = 0
+          right = 0
+          style = "solid"
+          top = 1
+        }
+        itemPadding {
+          bottom = 3
+          left = 10
+          right = 3
+          top = 3
+        }
+        itemText {
+          color = "#ffffff"
+          family = "'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif"
+          size = "13px"
+          weight = "300"
+        }
+      }
+      itemPadding {
+        bottom = 0
+        left = 0
+        right = 0
+        top = 0
+      }
+      itemText {
+        color = "#404040"
+        family = "'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif"
+        size = "13px"
+        weight = "300"
+      }
+      padding {
+        bottom = 0
+        left = 0
+        right = 0
+        top = 0
+      }
+      scrollerHeight = 24
+      separator {
+        color = "#e1e1e1"
+        height = 1
+        margin {
+          bottom = 2
+          left = 3
+          right = 3
+          top = 2
+        }
+      }
+    }
+    messagebox {
+      bodyPadding {
+        bottom = 10
+        left = 10
+        right = 10
+        top = 5
+      }
+      iconPadding {
+        bottom = 10
+        left = 10
+        right = 10
+        top = 10
+      }
+      messagePadding {
+        bottom = 5
+        left = 10
+        right = 10
+        top = 10
+      }
+      text {
+        color = "#000000"
+        family = "'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif"
+        size = "13px"
+        weight = "normal"
+      }
+    }
+    panel {
+      backgroundColor = "#ffffff"
+      frameHeight = 0
+      frameWidth = 0
+      headerBackgroundColor = "#5fa2dd"
+      headerGradient = "#5fa2dd 0%, #5fa2dd 100%"
+      headerLineHeight = "20px"
+      border {
+        bottom = 0
+        color = "#000000"
+        left = 0
+        right = 0
+        style = "none"
+        top = 0
+      }
+      font {
+        color = "#f6f6f6"
+        family = "'Open Sans','Helvetica Neue',helvetica,arial,verdana,sans-serif"
+        size = "16px"
+        weight = "400"
+      }
+      headerPadding {
+        bottom = 12
+        left = 16
+        right = 16
+        top = 12
+      }
+      padding {
+        bottom = 0
+        left = 0
+        right = 0
+        top = 0
+      }
+    }
+    progressbar {
+      backgroundGradient = ""
+      barGradient = "#c1ddf1 0%, #c1ddf1 100%"
+      barTextColor = "#666666"
+      textAlign = "center"
+      barBorder {
+        bottom = 0
+        color = "#000000"
+        left = 0
+        right = 0
+        style = "none"
+        top = 0
+      }
+      border {
+        bottom = 0
+        color = "#000000"
+        left = 0
+        right = 0
+        style = "none"
+        top = 0
+      }
+      text {
+        color = "#666666"
+        family = "'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif"
+        size = "13px"
+        weight = "bold"
+      }
+      textPadding {
+        bottom = 3
+        left = 0
+        right = 0
+        top = 3
+      }
+    }
+    resizable {
+      handleSize = 16
+      handleOffset = -8
+    }
+    splitbar {
+      arrowColor = "#919191"
+      dragColor = "#B4B4B4"
+      handleHeight = 48
+      handleOpacity = 1
+      handleWidth = 10
+    }
+    status {
+      lineHeight = "16px"
+      border {
+        bottom = 1
+        color = "#cccccc #d9d9d9 #d9d9d9"
+        left = 1
+        right = 1
+        style = "solid"
+        top = 1
+      }
+      padding {
+        bottom = 0
+        left = 5
+        right = 5
+        top = 0
+      }
+      text {
+        color = "#000000"
+        family = "'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif"
+        size = "12px"
+        weight = "normal"
+      }
+    }
+    statusproxy {
+      backgroundColor = "#ffffff"
+      opacity = 0.85
+      border {
+        bottom = 1
+        color = "#dddddd #bbbbbb #bbbbbb #dddddd"
+        left = 1
+        right = 1
+        style = "solid"
+        top = 1
+      }
+      text {
+        color = "#000000"
+        family = "'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif"
+        size = "13px"
+        weight = "normal"
+      }
+    }
+    tabs {
+      activeHeadingText {
+        color = "#4C82B1"
+        family = "'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif"
+        size = "13px"
+        weight = "300"
+      }
+      activePlainTabCloseIconColor = "#919191"
+      activePlainTabCloseOverIconColor = "#919191"
+      activeTabCloseIconColor = "#919191"
+      activeTabCloseOverIconColor = "#919191"
+      activeTabItemBackgroundColor = "#ffffff"
+      activeTabItemBorderBottom = "0px"
+      activeTabItemBorderTop = "0px"
+
+      activeTabCloseIconOpacity = 1
+      activeTabCloseOverIconOpacity = 1
+      tabCloseIconOpacity = 1
+      tabCloseOverIconOpacity = 1
+
+      bodyBackgroundColor = "#ffffff"
+      borderColor = "#5fa2dd"
+      borderRadius = 0
+      closeIconWidth = 11
+      gradient = "#ffffff 0%, #ffffff 100%"
+      headingColor = "#ffffff"
+      headingText {
+        color = "#f0f0f0"
+        family = "'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif"
+        size = "13px"
+        weight = "300"
+      }
+      hoverGradient = "rgba(0, 0, 0, 0.08) 0%, rgba(0, 0, 0, 0.08) 100%"
+      hoverHeadingText = headingText
+      hoverTabItemBackgroundColor = "rgba(0, 0, 0, 0.08)"
+      iconLeftOffset = 6
+      iconTopOffset = 5
+      iconWidth = 16
+      inactiveGradient = "transparent 0%, transparent 100%"
+      inactiveLastStopColor = "transparent"
+      inactiveTabItemBackgroundColor = "transparent"
+      lastStopColor = "#5fa2dd"
+      overTabItemBorderBottom = "0px"
+      overTabItemBorderTop = "0px"
+      overTabItemOpacity = 0.08
+      padding {
+        bottom = 8
+        left = 10
+        right = 10
+        top = 8
+      }
+      paddingWithClosable {
+        bottom = 19
+        left = 19
+        right = 19
+        top = 19
+      }
+      paddingWithIcon {
+        bottom = 18
+        left = 18
+        right = 18
+        top = 18
+      }
+      plainActiveHeadingText {
+        color = "#404040"
+        family = "'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif"
+        size = "13px"
+        weight = "normal"
+      }
+      plainHeadingText {
+        color = "#606060"
+        family = "'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif"
+        size = "13px"
+        weight = "normal"
+      }
+      plainHoverHeadingText = plainHeadingText
+      plainTabBarBorderBottom = 0
+      plainTabBarBorderTop = 0
+      plainTabCloseIconColor = "#919191"
+      plainTabCloseOverIconColor = "#919191"
+      plainTabStripSpacerHeight = 0
+      plainTabStripSpacerBorder = 0
+      scrollerBackgroundColor = "#5fa2dd"
+      scrollerLeftDisabledOpacity = 0.5
+      scrollerLeftOverOpacity = 1
+      scrollerRightDisabledOpacity = 0.5
+      scrollerRightOverOpacity = 1
+      scrollerWidth = 24
+      tabBarBorder = "none"
+      tabBarBottomHeight = 0
+      tabBodyBorder = "none"
+      tabCloseIconColor = "#ffffff"
+      tabCloseOverIconColor = "#ffffff"
+      tabHeight = 36
+      tabItemBorderBottom = "none"
+      tabItemBorderLeft = "none"
+      tabItemBorderRight = "none"
+      tabItemBorderTop = "none"
+      tabSpacing = 1
+      tabStripBottomBorder = "none"
+      tabStripTopBorder = "none"
+      tabStripBackgroundColor = "#5fa2dd"
+      tabStripGradient = "#5fa2dd 0%, #5fa2dd 100%"
+      tabStripPadding {
+        bottom = 0
+        left = 8
+        right = 4
+        top = 8
+      }
+      tabTextPadding {
+        bottom = 10
+        left = 0
+        right = 0
+        top = 10
+      }
+    }
+    tip {
+      backgroundColor = "#747474"
+      borderRadius = 2
+      opacity = 1
+      radiusMinusBorderWidth = util.radiusMinusBorderWidth(border, borderRadius)
+      border {
+        bottom = 1
+        color = "#747474"
+        left = 1
+        right = 1
+        style = "solid"
+        top = 1
+      }
+      headerPadding {
+        bottom = 0
+        left = 0
+        right = 0
+        top = 0
+      }
+      headerText {
+        color = "#f0f0f0"
+        family = "'Open Sans','Helvetica Neue',helvetica,arial,verdana,sans-serif"
+        size = "13px"
+        weight = "bold"
+      }
+      margin {
+        bottom = 0
+        left = 0
+        right = 0
+        top = 0
+      }
+      messagePadding {
+        bottom = 0
+        left = 0
+        right = 0
+        top = 0
+      }
+      messageText {
+        color = "#f0f0f0"
+        family = "'Open Sans','Helvetica Neue',helvetica,arial,verdana,sans-serif"
+        size = "13px"
+        weight = "300"
+      }
+      padding {
+        bottom = 3
+        left = 3
+        right = 3
+        top = 3
+      }
+    }
+    toolbar {
+      backgroundColor = "#ffffff"
+      gradient = "#ffffff 0%, #ffffff 100%"
+      border {
+        bottom = 0
+        color = "#000000"
+        left = 0
+        right = 0
+        style = "none"
+        top = 0
+      }
+      buttonOverride {
+        arrowColor = "#919191"
+        backgroundColor = "#f6f6f6"
+        border = util.border('solid', '#e4e4e4', 1)
+        borderRadius = 0
+        firstIconColor = "#919191"
+        gradient = "#f6f6f6 0%, #f6f6f6 100%"
+        largeFontSize = "16"
+        largeLineHeight = "32"
+        lastIconColor = "#919191"
+        mediumFontSize = "14"
+        mediumLineHeight = "24"
+        nextIconColor = "#919191"
+        overBackgroundColor = "#ececec"
+        overBorder = util.border('solid', '#dbdbdb', 1)
+        overGradient = "#ececec 0%, #ececec 100%"
+        pressedBackgroundColor = "#e2e2e2"
+        pressedBorder = util.border('solid', '#d2d2d2', 1)
+        pressedGradient = "#e2e2e2 0%, #e2e2e2 100%"
+        prevIconColor = "#919191"
+        radiusMinusBorderWidth = util.radiusMinusBorderWidth(border, borderRadius)
+        refreshIconColor = "#919191"
+        smallFontSize = "12"
+        smallLineHeight = "18"
+        font {
+          color = "#606060"
+          family = "'Open Sans','Helvetica Neue',helvetica,arial,verdana,sans-serif"
+          size = "13px"
+          weight = "300"
+        }
+        padding {
+          bottom = 7
+          left = 7
+          right = 7
+          top = 7
+        }
+      }
+      htmlEditorIconColor = "#919191"
+      labelItem {
+        lineHeight = "16px"
+        padding {
+          bottom = 0
+          left = 4
+          right = 4
+          top = 0
+        }
+        text = field.text
+      }
+      padding {
+        bottom = 3
+        left = 3
+        right = 3
+        top = 3
+      }
+      separatorBorder {
+        bottom = 0
+        color = "#d0d0d0"
+        left = 0
+        right = 1
+        style = "solid"
+        top = 0
+      }
+      separatorHeight = 14
+    }
+    tools {
+      allowColor = "#C6E38A"
+      primaryClickColor = "#ffffff"
+      primaryClickOpacity = 0.8
+      primaryColor = "#ffffff"
+      primaryOpacity = 0.8
+      primaryOverColor = "#ffffff"
+      primaryOverOpacity = 1
+      warningColor = "#D94E37"
+      tabs {
+        tabCloseOver = "#ffffff"
+      }
+    }
+    tree {
+      checkboxMargin {
+        bottom = 0
+        left = 2
+        right = 3
+        top = 8
+      }
+      dragOverBackgroundColor = "#eaeff4"
+      dropBackgroundColor = "#ffefbb"
+      itemHeight = "32px"
+      overBackgroundColor = "#eaeff4"
+      selectedBackgroundColor = "#ffefbb"
+      iconMargin {
+        bottom = 0
+        left = 2
+        right = 3
+        top = 0
+      }
+      nodePadding {
+        bottom = 6
+        left = 6
+        right = 6
+        top = 7
+      }
+      text {
+        color = "#404040"
+        family = "'Open Sans','Helvetica Neue',helvetica,arial,verdana,sans-serif"
+        size = "13px"
+        weight = "300"
+      }
+    }
+    window {
+      backgroundColor = "#ffffff"
+      borderRadius = 0
+      frameHeight = 0
+      frameWidth = 0
+      headerBackgroundColor = "#5fa2dd"
+      headerGradient = "#5fa2dd 0%, #5fa2dd 100%"
+      headerLineHeight = "20px"
+      radiusMinusBorderWidth = util.radiusMinusBorderWidth(border, borderRadius)
+      border {
+        bottom = 2
+        color = "#5fa2dd"
+        left = 2
+        right = 2
+        style = "solid"
+        top = 2
+      }
+      font {
+        color = "#f6f6f6"
+        family = "'Open Sans','Helvetica Neue',helvetica,arial,verdana,sans-serif"
+        size = "16px"
+        weight = "400"
+      }
+      headerPadding {
+        bottom = 10
+        left = 14
+        right = 14
+        top = 10
+      }
+      padding {
+        bottom = 0
+        left = 0
+        right = 0
+        top = 0
+      }
+    }
+  }
+  headerText {
+    color = "#ffffff"
+    family = "'Open Sans','Helvetica Neue',helvetica,arial,verdana,sans-serif"
+    size = "13px"
+    weight = "bold"
+  }
+}
+
