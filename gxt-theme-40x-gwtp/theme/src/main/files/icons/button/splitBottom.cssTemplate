@@ -1,0 +1,8 @@
+
+rect {
+  fill: <%= config.get('theme.details.button.border.color').resolveString() %>;
+}
+
+polyline {
+  fill: <%= config.get('theme.details.button.arrowColor').resolveString() %>;
+}
