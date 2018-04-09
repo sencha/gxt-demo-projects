@@ -1,18 +1,17 @@
 @if(!is("user.agent", "ie8")) {
-  input[type="checkbox"] {
+  input[type="radio"] {
     display: none;
   }
 
-  input[type="checkbox"] + label {
+  input[type="radio"] + span {
     display:inline-block;
-    margin:-1px 4px 0 0;
+    margin: -2px 0px 0px 0px;
     vertical-align: middle;
-    gwt-sprite: "unchecked";
+    gwt-sprite: "radioUnselected";
     cursor: pointer;
-    padding: PADDING;
   }
 
-  input[type="checkbox"]:checked + label {
-    gwt-sprite: "checked";
+  input[type="radio"]:checked + span {
+    gwt-sprite: "radioSelected";
   }
 }

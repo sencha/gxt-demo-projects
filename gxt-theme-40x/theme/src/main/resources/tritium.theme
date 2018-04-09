@@ -1,8 +1,8 @@
 theme {
   name = "tritium"
   basePackage = "tld.domain.project.theme.tritium"
-  
-  borderColor = "#157FCC"
+    
+  borderColor = "#157FCC"  
   panelBackgroundColor = "#ffffff"
   details {
     backgroundColor = "#ffffff"
@@ -292,12 +292,12 @@ theme {
         top = 0
       }
       todayBorder {
-        bottom = 0
+        bottom = 1
         color = "#8b0000"
-        left = 0
-        right = 0
+        left = 1
+        right = 1
         style = "solid"
-        top = 0
+        top = 1
       }
     }
     errortip = tip
@@ -318,8 +318,8 @@ theme {
         boxLabel = text
         padding {
           bottom = 0
-          left = 22
-          right = 10
+          left = 0
+          right = 0
           top = 0
         }
         color = "#919191"
@@ -531,7 +531,7 @@ theme {
         bottom = 6
         left = 10
         right = 10
-        top = 7
+        top = 6
       }
       cellText {
         color = "#404040"
@@ -1423,4 +1423,3 @@ theme {
     weight = "bold"
   }
 }
-
