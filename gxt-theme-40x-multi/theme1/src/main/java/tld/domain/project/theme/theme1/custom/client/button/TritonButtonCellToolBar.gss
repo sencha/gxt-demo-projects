@@ -3,9 +3,9 @@
 
 
 .x-paging-toolbar-mark .button {
-  border-radius: 0;
-  border-width: 1px;
-  border-style: solid;
+  border-radius: TBBORDER_RADIUS;
+  border-width: TBBORDER_WIDTH;
+  border-style: TBBORDER_STYLE;
   border-color: transparent;
   background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
   /* @alternate */ background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
@@ -16,40 +16,51 @@
 }
 
 .x-paging-toolbar-mark .buttonInner {
-  padding: 7px 7px 7px 7px;
+  padding: TBPADDING;
   text-align: center;
-  font-size: 13px;
-  color: #606060;
-  font-weight: 300;
-  font-family: 'Open Sans','Helvetica Neue',helvetica,arial,verdana,sans-serif;
+  font-size: TBFONT_SIZE;
+  color: TBFONT_COLOR;
+  font-weight: TBFONT_WEIGHT;
+  font-family: TBFONT_FAMILY;
 }
 
 .x-paging-toolbar-mark .over {
-  background: -webkit-linear-gradient(top, #ececec 0%, #ececec 100%);
-  /* @alternate */ background: -ms-linear-gradient(top, #ececec 0%, #ececec 100%);
-  /* @alternate */ background: linear-gradient(to bottom, #ececec 0%, #ececec 100%);
-  border-color: #dbdbdb;
-  border-width: 1px;
+  background: TBOVER_BACKGROUND_COLOR;
+  /* @alternate */ background: -webkit-linear-gradient(top, TBOVER_GRADIENT);
+  /* @alternate */ background: -ms-linear-gradient(top, TBOVER_GRADIENT);
+  /* @alternate */ background: linear-gradient(to bottom, TBOVER_GRADIENT);
+  border-color: TBOVER_BORDER_COLOR;
 }
 
 .x-paging-toolbar-mark .pressed {
-  background: -webkit-linear-gradient(top, #e2e2e2 0%, #e2e2e2 100%) !important;
-  /* @alternate */ background: -ms-linear-gradient(top, #e2e2e2 0%, #e2e2e2 100%) !important;
-  /* @alternate */ background: linear-gradient(to bottom, #e2e2e2 0%, #e2e2e2 100%) !important;
-  border-color: #d2d2d2;
-  border-width: 1px;
+  background: TBPRESSED_BACKGROUND_COLOR;
+  /* @alternate */ background: -webkit-linear-gradient(top, TBPRESSED_GRADIENT) !important;
+  /* @alternate */ background: -ms-linear-gradient(top, TBPRESSED_GRADIENT) !important;
+  /* @alternate */ background: linear-gradient(to bottom, TBPRESSED_GRADIENT) !important;
+  border-color: TBPRESSED_BORDER_COLOR;
 }
 
 .x-paging-toolbar-mark .focused {
-  background: -webkit-linear-gradient(top, #ececec 0%, #ececec 100%);
-  /* @alternate */ background: -ms-linear-gradient(top, #ececec 0%, #ececec 100%);
-  /* @alternate */ background: linear-gradient(to bottom, #ececec 0%, #ececec 100%);
+  background: TBOVER_BACKGROUND_COLOR;
+  /* @alternate */ background: -webkit-linear-gradient(top, TBOVER_GRADIENT);
+  /* @alternate */ background: -ms-linear-gradient(top, TBOVER_GRADIENT);
+  /* @alternate */ background: linear-gradient(to bottom, TBOVER_GRADIENT);
+}
+
+.x-paging-toolbar-mark .arrow {
+  gwt-sprite: "toolBarArrow";
+  width: auto;
+  height: auto;
+  margin-right: 2px;
+  padding-right: 20px;
+  background-position: right center;
+  background-repeat: no-repeat;
 }
 
 .x-html-editor-toolbar-mark .button {
-  border-radius: 0;
-  border-width: 1px;
-  border-style: solid;
+  border-radius: TBBORDER_RADIUS;
+  border-width: TBBORDER_WIDTH;
+  border-style: TBBORDER_STYLE;
   border-color: transparent;
   background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
   /* @alternate */ background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
@@ -60,32 +71,43 @@
 }
 
 .x-html-editor-toolbar-mark .buttonInner {
-  padding: 7px 7px 7px 7px;
+  padding: TBPADDING;
   text-align: center;
-  font-size: 13px;
-  color: #606060;
-  font-weight: 300;
-  font-family: 'Open Sans','Helvetica Neue',helvetica,arial,verdana,sans-serif;
+  font-size: TBFONT_SIZE;
+  color: TBFONT_COLOR;
+  font-weight: TBFONT_WEIGHT;
+  font-family: TBFONT_FAMILY;
 }
 
 .x-html-editor-toolbar-mark .over {
-  background: -webkit-linear-gradient(top, #ececec 0%, #ececec 100%);
-  /* @alternate */ background: -ms-linear-gradient(top, #ececec 0%, #ececec 100%);
-  /* @alternate */ background: linear-gradient(to bottom, #ececec 0%, #ececec 100%);
-  border-color: #dbdbdb;
-  border-width: 1px;
+  background: TBOVER_BACKGROUND_COLOR;
+  /* @alternate */ background: -webkit-linear-gradient(top, TBOVER_GRADIENT);
+  /* @alternate */ background: -ms-linear-gradient(top, TBOVER_GRADIENT);
+  /* @alternate */ background: linear-gradient(to bottom, TBOVER_GRADIENT);
+  border-color: TBOVER_BORDER_COLOR;
 }
 
 .x-html-editor-toolbar-mark .pressed {
-  background: -webkit-linear-gradient(top, #e2e2e2 0%, #e2e2e2 100%) !important;
-  /* @alternate */ background: -ms-linear-gradient(top, #e2e2e2 0%, #e2e2e2 100%) !important;
-  /* @alternate */ background: linear-gradient(to bottom, #e2e2e2 0%, #e2e2e2 100%) !important;
-  border-color: #d2d2d2;
-  border-width: 1px;
+  background: TBPRESSED_BACKGROUND_COLOR;
+  /* @alternate */ background: -webkit-linear-gradient(top, TBPRESSED_GRADIENT) !important;
+  /* @alternate */ background: -ms-linear-gradient(top, TBPRESSED_GRADIENT) !important;
+  /* @alternate */ background: linear-gradient(to bottom, TBPRESSED_GRADIENT) !important;
+  border-color: TBPRESSED_BORDER_COLOR;
 }
 
 .x-html-editor-toolbar-mark .focused {
-  background: -webkit-linear-gradient(top, #ececec 0%, #ececec 100%);
-  /* @alternate */ background: -ms-linear-gradient(top, #ececec 0%, #ececec 100%);
-  /* @alternate */ background: linear-gradient(to bottom, #ececec 0%, #ececec 100%);
+  background: TBOVER_BACKGROUND_COLOR;
+  /* @alternate */ background: -webkit-linear-gradient(top, TBOVER_GRADIENT);
+  /* @alternate */ background: -ms-linear-gradient(top, TBOVER_GRADIENT);
+  /* @alternate */ background: linear-gradient(to bottom, TBOVER_GRADIENT);
+}
+
+.x-html-editor-toolbar-mark .arrow {
+  gwt-sprite: "toolBarArrow";
+  width: auto;
+  height: auto;
+  margin-right: 2px;
+  padding-right: 20px;
+  background-position: right center;
+  background-repeat: no-repeat;
 }

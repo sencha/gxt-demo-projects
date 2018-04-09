@@ -3,16 +3,15 @@
     display: none;
   }
 
-  input[type="radio"] + label {
+  input[type="radio"] + span {
     display:inline-block;
-    margin:-1px 4px 0 0;
+    margin: -2px 0px 0px 0px;
     vertical-align: middle;
     gwt-sprite: "radioUnselected";
     cursor: pointer;
-    padding: 0px 10px 0px 19px;
   }
 
-  input[type="radio"]:checked + label {
+  input[type="radio"]:checked + span {
     gwt-sprite: "radioSelected";
   }
 }

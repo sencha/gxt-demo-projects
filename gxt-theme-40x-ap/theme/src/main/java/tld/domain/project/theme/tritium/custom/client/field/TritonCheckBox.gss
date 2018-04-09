@@ -1,18 +1,27 @@
-@if(!is("user.agent", "ie8")) {
-  input[type="checkbox"] {
-    display: none;
+
+@if(!is("user.agent", "ie8") && !is("user.agent", "ie9") && !is("user.agent", "ie10") && 
+!is("gxt.user.agent", "ie11")) {
+ 
+  .wrap input[type="checkbox"] {
+    opacity: 0;
+    /* position over the label(span) to continue receiving input */
+    position: absolute;
+    vertical-align: middle;
+    cursor: pointer;
+    padding: PADDING;
+    top: 5px;
   }
 
-  input[type="checkbox"] + label {
+  .wrap input[type="checkbox"] + span {
     display:inline-block;
-    margin:-1px 4px 0 0;
+    margin: -2px 0px 0px 0px;
     vertical-align: middle;
     gwt-sprite: "unchecked";
-    cursor: pointer;
     padding: PADDING;
   }
 
-  input[type="checkbox"]:checked + label {
+  .wrap input[type="checkbox"]:checked + span {
     gwt-sprite: "checked";
   }
+
 }
