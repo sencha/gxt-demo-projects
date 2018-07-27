@@ -1,5 +1,5 @@
 # Basic GXT Project with a Theme
-This is a very basic GXT project with a theme module. 
+This is a very basic GXT project with a theme module. The theme was copied from Triton and renamed as Tritium for example.  
 
 ## Requirements
 
