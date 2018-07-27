@@ -1,5 +1,5 @@
 # Basic GXT Project with a Theme
-This is a very basic GXT project with a theme module. The theme was copied from Triton and renamed as Tritium for example.  
+This is a very basic GXT project with a theme module.   
 
 ## Requirements
 
@@ -18,6 +18,7 @@ Importing the project into the IDE.
     * IntellJ IDEA - Create a GWT launcher.
 
 ## Building the theme
+The theme was copied from Triton and renamed as Tritium for example. 
 
 ### Full Build
 Running `mvn install` from the root of the project will do a full project build which includes the theme. 
