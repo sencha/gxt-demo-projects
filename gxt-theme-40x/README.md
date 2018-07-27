@@ -31,10 +31,10 @@ Running `mvn install` from the theme module, or theme folder, will allow you to 
 ## Theme Reference
 
 * [Generating Theme Guide](https://docs.sencha.com/gxt/4.x/guides/ui/theme/GeneratingThemes.html)
-* [Theme Utilities](https://docs.sencha.com/gxt/4.x/guides/ui/theme/Utilities.html)
-* [About GSS](https://docs.sencha.com/gxt/4.x/guides/ui/style/gss/GSS.html)
-* [GSS Syntax](https://docs.sencha.com/gxt/4.x/guides/ui/style/gss/GSSSyntax.html)
-* [GSS to CSS](https://docs.sencha.com/gxt/4.x/guides/ui/style/gss/CssToGss.html)
+* [Theme Utilities Guide](https://docs.sencha.com/gxt/4.x/guides/ui/theme/Utilities.html)
+* [About GSS Guide](https://docs.sencha.com/gxt/4.x/guides/ui/style/gss/GSS.html)
+* [GSS Syntax Guide](https://docs.sencha.com/gxt/4.x/guides/ui/style/gss/GSSSyntax.html)
+* [GSS to CSS Guide](https://docs.sencha.com/gxt/4.x/guides/ui/style/gss/CssToGss.html)
 
 ### Using Client Bundles
 Client bundles are ideal for encapsulating reuseable code. Like we do with Appearances. 
