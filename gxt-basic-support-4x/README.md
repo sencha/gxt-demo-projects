@@ -1,6 +1,8 @@
 # GXT Basic Project
 This is a very basic GXT Project template. 
 
+[![Sencha](http://cdn.sencha.com/img/gwt-eclipse-plugin-banner.png)](https://www.sencha.com/products/gxt/)
+
 ## Requirements
 
 * [Configure your Maven Artifactory Credentials](http://docs.sencha.com/gxt/4.x/guides/getting_started/maven/Maven.html)
