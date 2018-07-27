@@ -10,7 +10,8 @@ This is a very basic GXT project with a theme module.
 ## IDE
 Importing the project into the IDE. 
 
-1. Run `mvn install` from the project root to build the theme.
+1. Run `mvn install` from the project root to build the theme. 
+  - The reason this is done to start with is to generate the theme source files which will be in the generated source directory.
 2. Import this project into your IDE as Maven project.
 3. Create a launcher in the IDE for the application.
   - Eclipse - Right click and debug as GWT Development Mode with Embedded Jetty Server.
