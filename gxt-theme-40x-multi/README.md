@@ -1,5 +1,5 @@
-# GXT Basic with Theme
-This is a very basic GXT with custom theme Archetype. 
+# GXT Basic with 2 Theme Modules
+This is a very basic GXT with 2 custom theme modules.
 
 ## Requirements
 
