@@ -20,6 +20,8 @@ Importing the project into the IDE.
 ## Building the theme
 The theme was copied from Triton and renamed as Tritium for example. 
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/7-fE_96cOGg/0.jpg)](https://www.youtube.com/watch?v=7-fE_96cOGg)
+
 ### Full Build
 Running `mvn install` from the root of the project will do a full project build which includes the theme. 
 
