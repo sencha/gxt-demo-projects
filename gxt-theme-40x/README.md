@@ -7,7 +7,8 @@ This is a very basic GXT project with a theme module.
 * [Apache Maven](https://maven.apache.org/install.html)
 * [Access to Sencha Maven Artifactory](http://docs.sencha.com/gxt/4.x/guides/getting_started/maven/Maven.html) - This will give you access to GXT 4.0.3.
 
-## Directions
+## IDE
+Importing the project into the IDE. 
 
 1. Import this project into the IDE
 2. Run `mvn install` to build the theme
