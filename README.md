@@ -31,7 +31,7 @@ Simple GXT projects
 * [gxt-theme-40x-multi](./gxt-theme-40x-multi) - A project with two theme modules based on triton. 
 
 ### Projects for testing
-The projects here are used for testing
+The projects here are used for testing.
 
 * [gxt-integration-testing](./gxt-integration-testing) - A simple project set up with integration testing.
 
