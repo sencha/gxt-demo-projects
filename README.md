@@ -5,7 +5,7 @@ These are Sencha GXT 4.x project templates.
 
 * Java JDK 1.8 (Java 1.9+)
 * [Maven](https://maven.apache.org/install.html)
-* GXT 4.0.3 - [Sencha Maven Artifactory Credentials Configuration to GXT 4.0.3](http://docs.sencha.com/gxt/4.x/guides/getting_started/maven/Maven.html) 
+* [Sencha Maven Artifactory Credentials Configuration](http://docs.sencha.com/gxt/4.x/guides/getting_started/maven/Maven.html) - This will give you access to GXT 4.0.3.
 
 ## Directions
 Find specific project instructions to each project in the link below. 
