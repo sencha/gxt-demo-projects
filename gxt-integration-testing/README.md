@@ -1,5 +1,7 @@
 # Integration Testing
-Automated GXT testing
+Automated GXT testing...
+
+[![Sencha](http://cdn.sencha.com/img/gwt-eclipse-plugin-banner.png)](https://www.sencha.com/products/gxt/)
 
 ## Requirements
 The Chrome driver is required to debug.
