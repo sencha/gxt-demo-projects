@@ -1,6 +1,8 @@
 # GXT Basic with Theme and GWTP
 This is a very basic GXT with custom theme and GWTP Archetype. 
 
+[![Sencha](http://cdn.sencha.com/img/gwt-eclipse-plugin-banner.png)](https://www.sencha.com/products/gxt/)
+
 ## GWTP
 This project architecture uses [GWTP](http://dev.arcbees.com/gwtp/).  
 
