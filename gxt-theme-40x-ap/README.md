@@ -1,5 +1,5 @@
-# GXT Basic with Theme
-This is a very basic GXT with custom theme. 
+# GXT Application with Activities & Places
+This is a GXT simple project with GWT Activities and places used for applicaiton routing. 
 
 ## Requirements
 
