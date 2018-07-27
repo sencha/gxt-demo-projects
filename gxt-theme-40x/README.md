@@ -28,7 +28,19 @@ Running `mvn install` from the root of the project will do a full project build 
 ### Theme Only Build
 Running `mvn install` from the theme module, or theme folder, will allow you to only build the theme. 
 
-## Theme 
+## Theme Reference
+
+* [Generating Theme Guide](https://docs.sencha.com/gxt/4.x/guides/ui/theme/GeneratingThemes.html)
+* [Theme Utilities](https://docs.sencha.com/gxt/4.x/guides/ui/theme/Utilities.html)
+* [About GSS](https://docs.sencha.com/gxt/4.x/guides/ui/style/gss/GSS.html)
+* [GSS Syntax](https://docs.sencha.com/gxt/4.x/guides/ui/style/gss/GSSSyntax.html)
+* [GSS to CSS](https://docs.sencha.com/gxt/4.x/guides/ui/style/gss/CssToGss.html)
+
+### Using Client Bundles
+Client bundles are ideal for encapsulating reuseable code. Like we do with Appearances. 
+I like to suggest using gss variables in a global gss file that cascades into all of your client bundles so you only have one place for global values. Check out the [Theme Utilities](https://docs.sencha.com/gxt/4.x/guides/ui/theme/Utilities.html) for using the Themebuilder theme values. 
+
+* [Client Bundling and Styles](https://docs.sencha.com/gxt/4.x/guides/ui/style/ClientBundleStyleAndImages.html)
 
 ### Theme File Locations
 This images covers where the theme module stores the themes appearances and associated ClientBundle resources. 
