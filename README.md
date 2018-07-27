@@ -19,7 +19,7 @@ Project templates are using the Apache Maven architecture to make it easy to imp
 ### Simple Projects
 Simple GXT projects 
 
-* [gxt-basic-support-4x](./gxt-basic-support-4x) - A simple Maven project with one module. 
+* [gxt-basic-support-4x](./gxt-basic-support-4x) - A simple Maven project with one application only module. 
 
 ### Projects with Theme Modules
  The projects with themes have copies of the Triton theme and Triton has been renamed to Trituim for example. 
