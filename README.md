@@ -11,6 +11,8 @@ Find specific instructions in each project.
 ## GXT 
 These projects have been updated with GXT 4.0.3. 
 
+**Themes** - The projects with themes have a copied Triton and renamed it as tritium. 
+
 ## Templates
 Select one of the templates below. 
 
