@@ -1,4 +1,4 @@
-# Simple GXT application with Theme module
+# Simple GXT Application with Theme module
 This is a very basic GXT project with a theme module.   
 
 [![Sencha](http://cdn.sencha.com/img/gwt-eclipse-plugin-banner.png)](https://www.sencha.com/products/gxt/)
