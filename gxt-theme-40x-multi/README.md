@@ -1,6 +1,8 @@
 # GXT Basic with 2 Theme Modules
 This is a very basic GXT with 2 custom theme modules.
 
+[![Sencha](http://cdn.sencha.com/img/gwt-eclipse-plugin-banner.png)](https://www.sencha.com/products/gxt/)
+
 ## Requirements
 
 * [Java JDK](https://docs.sencha.com/gxt/4.x/guides/getting_started/Versions.html) - ([GXT Versions Matrix Reference](https://docs.sencha.com/gxt/4.x/guides/getting_started/Versions.html))
