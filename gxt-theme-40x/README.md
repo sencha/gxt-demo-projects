@@ -27,3 +27,11 @@ Running `mvn install` from the root of the project will do a full project build 
 
 ### Theme Only Build
 Running `mvn install` from the theme module, or theme folder, will allow you to only build the theme. 
+
+## Theme 
+
+### Theme File Locations
+This images covers where the theme module stores the themes appearances and associated ClientBundle resources. 
+
+[![Theme File Locations](https://github.com/sencha/gxt-demo-projects/blob/master/Theme_Files.png)](https://github.com/sencha/gxt-demo-projects/blob/master/Theme_Files.png)
+
