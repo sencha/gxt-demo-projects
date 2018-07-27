@@ -33,7 +33,7 @@ The projects here are used for testing
 
 * [gxt-integration-testing](./gxt-integration-testing) - A simple project set up with integration testing.
 
-#### Incubation Projects
+### Incubating
 
 * [gxt-theme-40x-gwtp](./gxt-theme-40x-gwtp) - A project built with GWTPlatform and a theme module.
 
