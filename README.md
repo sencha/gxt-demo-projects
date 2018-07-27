@@ -8,7 +8,7 @@ These are Sencha GXT 4.x project templates.
 * [Access to Sencha Maven Artifactory](http://docs.sencha.com/gxt/4.x/guides/getting_started/maven/Maven.html) - This will give you access to GXT 4.0.3.
 
 ## Directions
-Find specific project instructions to each project in the link below. 
+Find specific project instructions to each project in the project's README.md.
 
 ## GXT 
 These projects have been updated with GXT 4.0.3. 
