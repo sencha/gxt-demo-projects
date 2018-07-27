@@ -1,9 +1,11 @@
-# GXT Basic Project with Theme
-This is a very basic GXT with custom theme Archetype. 
+# Basic GXT Project with a Theme
+This is a very basic GXT project with a theme module. 
 
 ## Requirements
 
-* [Configure your Maven Artifactory Credentials](http://docs.sencha.com/gxt/4.x/guides/getting_started/maven/Maven.html)
+* [Java JDK](https://docs.sencha.com/gxt/4.x/guides/getting_started/Versions.html) - ([GXT Versions Matrix Reference](https://docs.sencha.com/gxt/4.x/guides/getting_started/Versions.html))
+* [Apache Maven](https://maven.apache.org/install.html)
+* [Access to Sencha Maven Artifactory](http://docs.sencha.com/gxt/4.x/guides/getting_started/maven/Maven.html) - This will give you access to GXT 4.0.3.
 
 ## Directions
 
