@@ -1,4 +1,4 @@
-# Basic GXT Project with a Theme
+# Simple GXT application with Theme module
 This is a very basic GXT project with a theme module.   
 
 ## Requirements
