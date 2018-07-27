@@ -24,6 +24,8 @@ Simple GXT projects
 ### Projects with Theme Modules
  The projects with themes have copies of the Triton theme and Triton has been renamed to Trituim for example. 
 
+[![GXT 101 - Building Themes with the Theme Builder](https://img.youtube.com/vi/7-fE_96cOGg/0.jpg)](https://www.youtube.com/watch?v=7-fE_96cOGg)
+
 * [gxt-theme-40x](./gxt-theme-40x) - **Recommended Easy Start** - A simple project with a theme a custom module based on Triton.
 * [gxt-theme-40x-ap](./gxt-theme-40x-ap) - A project built with Activities and Places and has a theme module.
 * [gxt-theme-40x-multi](./gxt-theme-40x-multi) - A project with two theme modules based on triton. 
