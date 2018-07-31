@@ -64,7 +64,6 @@ There is more than one to style widgets. Check out some of the tips and tricks f
 
 - Another way to change the **button color** for modern browsers only. [See the gist.](https://gist.github.com/branflake2267/cb0d0046f26e8c4776a170b4818fa3be)
 - Another way to style a **tip**. [See the gist.](https://gist.github.com/branflake2267/c7bc3c475060a45e5bea56954c2fe738)
-- Another way to layout the **tree**. [See the gist.](https://gist.github.com/branflake2267/df29948ae4e5de7b4cc0e289f0c96b88)
 - Another way to style toggle buttons. [See the gist.](https://gist.github.com/branflake2267/89e1e1552371879539e30b1254bd65d8)
 - Another way to style a progress bar. [See the gist.](https://gist.github.com/branflake2267/52a972d87056aa486ba9)
 
@@ -73,6 +72,11 @@ There is more than one to style widgets. Check out some of the tips and tricks f
 - Another way to **style the grid** using the ViewConfig. [See the gist.](https://gist.github.com/branflake2267/c1bf2512a8fd579978861b7c703260b5)
 - Another way to style the **grid selection** (1). [See the gist.](https://gist.github.com/branflake2267/e57c2a96bb854d8a3fe42bcfe5b80b5f)
 - Another way to style the **grid selection** (2). [See the gist.](https://gist.github.com/branflake2267/c16f6b9029347b3e70d89912aed8cc9d)
+
+### Trees
+
+- Another way to layout cells in a grid. [See the gist.](https://gist.github.com/branflake2267/774570b920d13e4b112b1cb49a6ce68c)
+- Another way to layout the **tree**. [See the gist.](https://gist.github.com/branflake2267/df29948ae4e5de7b4cc0e289f0c96b88)
 
 ### Error Handling
 
