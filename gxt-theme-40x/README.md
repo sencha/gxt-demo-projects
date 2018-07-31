@@ -72,6 +72,7 @@ There is more than one to style widgets. Check out some of the tips and tricks f
 - Showing an **icon** when **hovering** over header. [See the gist.](https://gist.github.com/branflake2267/23e20515fd4e9cf6e5849ce2382bf998)
 - **Text area** resizing. [See the gist.](https://gist.github.com/branflake2267/7da92d23ddffeb5ac8beb6b94978bd8a)
 - **Fluid Layout**. [See the gist.](https://gist.github.com/branflake2267/eaf371b29bfdc4e3210a17615c4559a5)
+- Custom **datepicker**. [See the gist.](https://gist.github.com/branflake2267/1ebdcb0dc6ae962550d985b6c89f0c0b)
 
 ### Buttons
 
