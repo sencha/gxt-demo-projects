@@ -68,6 +68,7 @@ There is more than one to style widgets. Check out some of the tips and tricks f
 - Another way to style a *ProgressBar**. [See the gist.](https://gist.github.com/branflake2267/52a972d87056aa486ba9)
 - Another way to color headers in a **BorderLayoutContainer**. [See the gist.](https://gist.github.com/branflake2267/1d2ec468062c5966a7f2f2ae6050594a)
 - Custom slider example. [See the gist.](https://gist.github.com/branflake2267/bec9089f63fa40574e6604151468beaf)
+- Custom Toggle cell. [See the gist.](https://gist.github.com/branflake2267/737aa0e319edf818d6a73c937ea61730)
 
 ### Buttons
 
@@ -81,6 +82,7 @@ There is more than one to style widgets. Check out some of the tips and tricks f
 - Another way to style the **grid selection** (1). [See the gist.](https://gist.github.com/branflake2267/e57c2a96bb854d8a3fe42bcfe5b80b5f)
 - Another way to style the **grid selection** (2). [See the gist.](https://gist.github.com/branflake2267/c16f6b9029347b3e70d89912aed8cc9d)
 - Another way to style the **grid selection** (3). [See the gist.](https://gist.github.com/branflake2267/c1bf2512a8fd579978861b7c703260b5)
+- Another way to show the **dirty icon** in the grid. [See the gist.](https://gist.github.com/branflake2267/58d2a7dfc3458a60843a13cb944ec192)
 
 ### Trees
 
