@@ -72,7 +72,11 @@ There is more than one to style widgets. Check out some of the tips and tricks f
 - **Text area** resizing. [See the gist.](https://gist.github.com/branflake2267/7da92d23ddffeb5ac8beb6b94978bd8a)
 - Custom **datepicker**. [See the gist.](https://gist.github.com/branflake2267/1ebdcb0dc6ae962550d985b6c89f0c0b)
 - **Combo** with multiple **checkboxes**. [See the gist](https://gist.github.com/branflake2267/7461fd4cd83f53c8c4a3152104213ef6)
+
+### Animations
+
 - **Blinking** border. [See the gist.](https://gist.github.com/branflake2267/cbe962dedaef6e8e1954285c496767b2)
+- CSS3 **marquee** animation. [See the gist.](https://gist.github.com/branflake2267/b250e1d6b2b43a1535d25146cbb4980a)
 
 ### Buttons
 
