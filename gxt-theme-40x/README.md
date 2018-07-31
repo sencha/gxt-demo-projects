@@ -69,6 +69,7 @@ There is more than one to style widgets. Check out some of the tips and tricks f
 - Another way to color headers in a **BorderLayoutContainer**. [See the gist.](https://gist.github.com/branflake2267/1d2ec468062c5966a7f2f2ae6050594a)
 - Custom slider example. [See the gist.](https://gist.github.com/branflake2267/bec9089f63fa40574e6604151468beaf)
 - Custom Toggle cell. [See the gist.](https://gist.github.com/branflake2267/737aa0e319edf818d6a73c937ea61730)
+- Showing an **icon** when **hovering** over header. [See the gist.](https://gist.github.com/branflake2267/23e20515fd4e9cf6e5849ce2382bf998)
 
 ### Buttons
 
@@ -107,4 +108,8 @@ There is more than one to style widgets. Check out some of the tips and tricks f
 ### Extending Appearances
 
 - Extending the appearance. [See the gist.](https://gist.github.com/branflake2267/201e80954f1ea3158559dc099ec9a0c8)
+
+### ImageResource
+
+- Hacking the ImageResource. [See the gist.](https://gist.github.com/branflake2267/938b7f6fc22da1417b39)
 
