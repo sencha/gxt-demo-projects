@@ -47,6 +47,8 @@ I like to suggest using gss variables in a global gss file that cascades into al
 ### Theme File Locations
 This images covers where the theme module stores the themes appearances and associated ClientBundle resources. 
 
+[![GXT 101 - Extending Appearances](https://img.youtube.com/vi/MQEmQ1McCZk/0.jpg)](https://www.youtube.com/watch?v=MQEmQ1McCZk)
+
 [![Theme File Locations](https://github.com/sencha/gxt-demo-projects/blob/master/Theme_Files.png)](https://github.com/sencha/gxt-demo-projects/blob/master/Theme_Files.png)
 
 
