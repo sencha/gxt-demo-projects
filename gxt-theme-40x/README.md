@@ -67,6 +67,7 @@ There is more than one to style widgets. Check out some of the tips and tricks f
 - Another way to style toggle buttons. [See the gist.](https://gist.github.com/branflake2267/89e1e1552371879539e30b1254bd65d8)
 - Another way to style a progress bar. [See the gist.](https://gist.github.com/branflake2267/52a972d87056aa486ba9)
 - Another way to color headers in a BorderLayoutContainer. [See the gist.](https://gist.github.com/branflake2267/1d2ec468062c5966a7f2f2ae6050594a)
+- Custom slider example. [See the gist.](https://gist.github.com/branflake2267/bec9089f63fa40574e6604151468beaf)
 
 ### Grids
 
