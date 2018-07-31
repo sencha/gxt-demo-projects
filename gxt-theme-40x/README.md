@@ -72,6 +72,7 @@ There is more than one to style widgets. Check out some of the tips and tricks f
 - **Text area** resizing. [See the gist.](https://gist.github.com/branflake2267/7da92d23ddffeb5ac8beb6b94978bd8a)
 - Custom **datepicker**. [See the gist.](https://gist.github.com/branflake2267/1ebdcb0dc6ae962550d985b6c89f0c0b)
 - **Combo** with multiple **checkboxes**. [See the gist](https://gist.github.com/branflake2267/7461fd4cd83f53c8c4a3152104213ef6)
+- **Blinking** border. [See the gist.](https://gist.github.com/branflake2267/cbe962dedaef6e8e1954285c496767b2)
 
 ### Buttons
 
@@ -103,6 +104,8 @@ There is more than one to style widgets. Check out some of the tips and tricks f
 - Another way to color headers in a **BorderLayoutContainer**. [See the gist.](https://gist.github.com/branflake2267/1d2ec468062c5966a7f2f2ae6050594a)
 - Another way to use HTML layout and css to layout. [See the gist.](https://gist.github.com/branflake2267/ec75a7a8fe7b056e7253e932fea94da8)
 - **Fluid Layout**. [See the gist.](https://gist.github.com/branflake2267/eaf371b29bfdc4e3210a17615c4559a5)
+- Center and scroll container. [See the gist.](https://gist.github.com/branflake2267/c070d81611b1858d1272ab77b826626c)
+
 
 ### Error Handling
 
@@ -134,4 +137,7 @@ There is more than one to style widgets. Check out some of the tips and tricks f
 - Dropping images on the window (1). [See the gist.](https://gist.github.com/branflake2267/d424e4a0c0b371e3dd9d15bfd3514429)
 - Doprring images on the window (2). [See the gist.](https://gist.github.com/branflake2267/97266601f0f225ae2a750fc8115dc2c4)
 
+### SVG
+
+- Resize SVG. [See the gist](https://gist.github.com/branflake2267/25d12cc2837261efc5859436af169528)
 
