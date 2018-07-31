@@ -67,6 +67,10 @@ There is more than one to style widgets. Check out some of the tips and tricks f
 - Another way to layout the **tree**. [See the gist.](https://gist.github.com/branflake2267/df29948ae4e5de7b4cc0e289f0c96b88)
 - Another way to style toggle buttons. [See the gist.](https://gist.github.com/branflake2267/89e1e1552371879539e30b1254bd65d8)
 
+### Error Handling
+
+- Another way to style your error handler. [See the gist.](https://gist.github.com/branflake2267/a51295fe09f6f8696476c3c383ac0731)
+
 ### Icons
 - **Font Awesome** example with flexible layout. [See the gist](https://gist.github.com/branflake2267/34eff42cd92d71fe02bc6a27d7856a81)
 - **Material icons**. [See the Explorer Example.](http://examples.sencha.com/gxt/4.0.3/#ExamplePlace:html_materialicons)
