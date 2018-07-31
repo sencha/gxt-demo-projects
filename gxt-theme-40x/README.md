@@ -70,6 +70,7 @@ There is more than one to style widgets. Check out some of the tips and tricks f
 - Custom slider example. [See the gist.](https://gist.github.com/branflake2267/bec9089f63fa40574e6604151468beaf)
 - Custom Toggle cell. [See the gist.](https://gist.github.com/branflake2267/737aa0e319edf818d6a73c937ea61730)
 - Showing an **icon** when **hovering** over header. [See the gist.](https://gist.github.com/branflake2267/23e20515fd4e9cf6e5849ce2382bf998)
+- **Text area** resizing. [See the gist.](https://gist.github.com/branflake2267/7da92d23ddffeb5ac8beb6b94978bd8a)
 
 ### Buttons
 
