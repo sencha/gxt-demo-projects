@@ -118,3 +118,8 @@ There is more than one to style widgets. Check out some of the tips and tricks f
 
 - Hacking the ImageResource. [See the gist.](https://gist.github.com/branflake2267/938b7f6fc22da1417b39)
 
+### Embedded Layout
+
+- Embedding your app. [See the gist.](https://gist.github.com/branflake2267/d2fec9bcfb5c5dea8cb78dc6528f0b42)
+
+
