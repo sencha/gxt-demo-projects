@@ -49,3 +49,8 @@ This images covers where the theme module stores the themes appearances and asso
 
 [![Theme File Locations](https://github.com/sencha/gxt-demo-projects/blob/master/Theme_Files.png)](https://github.com/sencha/gxt-demo-projects/blob/master/Theme_Files.png)
 
+
+## Tips & Tricks
+
+- Another way to change the button color for modern browsers only. [See the gist](https://gist.github.com/branflake2267/cb0d0046f26e8c4776a170b4818fa3be). 
+
