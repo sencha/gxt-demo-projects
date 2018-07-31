@@ -62,12 +62,18 @@ This images covers where the theme module stores the themes appearances and asso
 There is more than one to style widgets. Check out some of the tips and tricks for ideas. 
 (Check out the example images at the bottom of the gists.)
 
-- Another way to change the **button color** for modern browsers only. [See the gist.](https://gist.github.com/branflake2267/cb0d0046f26e8c4776a170b4818fa3be)
+### Misc
+
 - Another way to style a **tip**. [See the gist.](https://gist.github.com/branflake2267/c7bc3c475060a45e5bea56954c2fe738)
-- Another way to style toggle buttons. [See the gist.](https://gist.github.com/branflake2267/89e1e1552371879539e30b1254bd65d8)
-- Another way to style a progress bar. [See the gist.](https://gist.github.com/branflake2267/52a972d87056aa486ba9)
-- Another way to color headers in a BorderLayoutContainer. [See the gist.](https://gist.github.com/branflake2267/1d2ec468062c5966a7f2f2ae6050594a)
+- Another way to style a *ProgressBar**. [See the gist.](https://gist.github.com/branflake2267/52a972d87056aa486ba9)
+- Another way to color headers in a **BorderLayoutContainer**. [See the gist.](https://gist.github.com/branflake2267/1d2ec468062c5966a7f2f2ae6050594a)
 - Custom slider example. [See the gist.](https://gist.github.com/branflake2267/bec9089f63fa40574e6604151468beaf)
+
+### Buttons
+
+- Another way to change the **button color** for modern browsers only. [See the gist.](https://gist.github.com/branflake2267/cb0d0046f26e8c4776a170b4818fa3be)
+- Custom tool button using icon. [See the gist.](https://gist.github.com/branflake2267/d3df69c1e4867f9aade28c2ff641835a)
+- Another way to style toggle buttons. [See the gist.](https://gist.github.com/branflake2267/89e1e1552371879539e30b1254bd65d8)
 
 ### Grids
 
@@ -85,12 +91,15 @@ There is more than one to style widgets. Check out some of the tips and tricks f
 - Another way to style your error handler. [See the gist.](https://gist.github.com/branflake2267/a51295fe09f6f8696476c3c383ac0731)
 
 ### Icons
+
 - **Font Awesome** example with flexible layout. [See the gist](https://gist.github.com/branflake2267/34eff42cd92d71fe02bc6a27d7856a81)
 - **Material icons**. [See the Explorer Example.](http://examples.sencha.com/gxt/4.0.3/#ExamplePlace:html_materialicons)
 
 ### Fonts
+
 - **Web Fonts**. [See the Explorer Example.](http://examples.sencha.com/gxt/4.0.3/#ExamplePlace:html_webfont)
 
 ### Extending Appearances
+
 - Extending the appearance. [See the gist.](https://gist.github.com/branflake2267/201e80954f1ea3158559dc099ec9a0c8)
 
