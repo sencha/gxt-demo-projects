@@ -80,6 +80,7 @@ There is more than one to style widgets. Check out some of the tips and tricks f
 - Another way to **style the grid** using the ViewConfig. [See the gist.](https://gist.github.com/branflake2267/c1bf2512a8fd579978861b7c703260b5)
 - Another way to style the **grid selection** (1). [See the gist.](https://gist.github.com/branflake2267/e57c2a96bb854d8a3fe42bcfe5b80b5f)
 - Another way to style the **grid selection** (2). [See the gist.](https://gist.github.com/branflake2267/c16f6b9029347b3e70d89912aed8cc9d)
+- Another way to style the **grid selection** (3). [See the gist.](https://gist.github.com/branflake2267/c1bf2512a8fd579978861b7c703260b5)
 
 ### Trees
 
