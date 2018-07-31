@@ -93,7 +93,7 @@ There is more than one to style widgets. Check out some of the tips and tricks f
 - Another way to **disable the button** in a grid (2). [See the gist.](https://gist.github.com/branflake2267/7ddd8f7feee9f25d31befccf852c774b)
 - Split grid or **locking grid** example. [See the gist.](https://gist.github.com/branflake2267/d5f7b546f7c0dbe83df07a2d4d687695)
 - Custom row **expander** button. [See the gist.](https://gist.github.com/branflake2267/f154f6b7759e629528c4b9255d3ee7a9)
-
+- Custom **filter icon**. [See the gist.](https://gist.github.com/branflake2267/6b375ebd7e70e335f45a6fbab9e18d77)
 
 ### Trees
 
