@@ -88,9 +88,11 @@ There is more than one to style widgets. Check out some of the tips and tricks f
 - Another way to style the **grid selection** (2). [See the gist.](https://gist.github.com/branflake2267/c16f6b9029347b3e70d89912aed8cc9d)
 - Another way to style the **grid selection** (3). [See the gist.](https://gist.github.com/branflake2267/c1bf2512a8fd579978861b7c703260b5)
 - Another way to show the **dirty icon** in the grid. [See the gist.](https://gist.github.com/branflake2267/58d2a7dfc3458a60843a13cb944ec192)
-- Another way to **disable the button** in a grid. [See the gist.](https://gist.github.com/branflake2267/1c4fca8998a8d6e71d388237f3d1b6c0)
+- Another way to **disable the button** in a grid (1). [See the gist.](https://gist.github.com/branflake2267/1c4fca8998a8d6e71d388237f3d1b6c0)
+- Another way to **disable the button** in a grid (2). [See the gist.](https://gist.github.com/branflake2267/7ddd8f7feee9f25d31befccf852c774b)
 - Split grid or **locking grid** example. [See the gist.](https://gist.github.com/branflake2267/d5f7b546f7c0dbe83df07a2d4d687695)
 - Custom row **expander** button. [See the gist.](https://gist.github.com/branflake2267/f154f6b7759e629528c4b9255d3ee7a9)
+
 
 ### Trees
 
@@ -121,5 +123,10 @@ There is more than one to style widgets. Check out some of the tips and tricks f
 ### Embedded Layout
 
 - Embedding your app. [See the gist.](https://gist.github.com/branflake2267/d2fec9bcfb5c5dea8cb78dc6528f0b42)
+
+### DND Images
+
+- Dropping images on the window (1). [See the gist.](https://gist.github.com/branflake2267/d424e4a0c0b371e3dd9d15bfd3514429)
+- Doprring images on the window (2). [See the gist.](https://gist.github.com/branflake2267/97266601f0f225ae2a750fc8115dc2c4)
 
 
