@@ -65,15 +65,13 @@ There is more than one to style widgets. Check out some of the tips and tricks f
 ### Misc
 
 - Another way to style a **tip**. [See the gist.](https://gist.github.com/branflake2267/c7bc3c475060a45e5bea56954c2fe738)
-- Another way to style a *ProgressBar**. [See the gist.](https://gist.github.com/branflake2267/52a972d87056aa486ba9)
-- Another way to color headers in a **BorderLayoutContainer**. [See the gist.](https://gist.github.com/branflake2267/1d2ec468062c5966a7f2f2ae6050594a)
-- Custom slider example. [See the gist.](https://gist.github.com/branflake2267/bec9089f63fa40574e6604151468beaf)
-- Custom Toggle cell. [See the gist.](https://gist.github.com/branflake2267/737aa0e319edf818d6a73c937ea61730)
+- Another way to style a **progress bar**. [See the gist.](https://gist.github.com/branflake2267/52a972d87056aa486ba9)
+- Custom **slider** example. [See the gist.](https://gist.github.com/branflake2267/bec9089f63fa40574e6604151468beaf)
+- Custom **toggle button**. [See the gist.](https://gist.github.com/branflake2267/737aa0e319edf818d6a73c937ea61730)
 - Showing an **icon** when **hovering** over header. [See the gist.](https://gist.github.com/branflake2267/23e20515fd4e9cf6e5849ce2382bf998)
 - **Text area** resizing. [See the gist.](https://gist.github.com/branflake2267/7da92d23ddffeb5ac8beb6b94978bd8a)
-- **Fluid Layout**. [See the gist.](https://gist.github.com/branflake2267/eaf371b29bfdc4e3210a17615c4559a5)
 - Custom **datepicker**. [See the gist.](https://gist.github.com/branflake2267/1ebdcb0dc6ae962550d985b6c89f0c0b)
-- Combo with multiple checkboxes. [See the gist](https://gist.github.com/branflake2267/7461fd4cd83f53c8c4a3152104213ef6)
+- **Combo** with multiple **checkboxes**. [See the gist](https://gist.github.com/branflake2267/7461fd4cd83f53c8c4a3152104213ef6)
 
 ### Buttons
 
@@ -99,6 +97,12 @@ There is more than one to style widgets. Check out some of the tips and tricks f
 
 - Another way to layout cells in a grid. [See the gist.](https://gist.github.com/branflake2267/774570b920d13e4b112b1cb49a6ce68c)
 - Another way to layout the **tree**. [See the gist.](https://gist.github.com/branflake2267/df29948ae4e5de7b4cc0e289f0c96b88)
+
+### Containers
+
+- Another way to color headers in a **BorderLayoutContainer**. [See the gist.](https://gist.github.com/branflake2267/1d2ec468062c5966a7f2f2ae6050594a)
+- Another way to use HTML layout and css to layout. [See the gist.](https://gist.github.com/branflake2267/ec75a7a8fe7b056e7253e932fea94da8)
+- **Fluid Layout**. [See the gist.](https://gist.github.com/branflake2267/eaf371b29bfdc4e3210a17615c4559a5)
 
 ### Error Handling
 
