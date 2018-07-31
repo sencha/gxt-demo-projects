@@ -51,6 +51,7 @@ This images covers where the theme module stores the themes appearances and asso
 
 
 ## Tips & Tricks
+There is more than one to style widgets. Check out some of the tips and tricks for ideas. 
 
 - Another way to change the **button color** for modern browsers only. [See the gist.](https://gist.github.com/branflake2267/cb0d0046f26e8c4776a170b4818fa3be)
 - Another way to **style the grid** using the ViewConfig. [See the gist.](https://gist.github.com/branflake2267/c1bf2512a8fd579978861b7c703260b5)
@@ -64,3 +65,7 @@ This images covers where the theme module stores the themes appearances and asso
 
 ### Fonts
 - **Web Fonts**. [See the Explorer Example.](http://examples.sencha.com/gxt/4.0.3/#ExamplePlace:html_webfont)
+
+### Extending Appearances
+- Extending the appearance. [See the gist.](https://gist.github.com/branflake2267/201e80954f1ea3158559dc099ec9a0c8)
+
