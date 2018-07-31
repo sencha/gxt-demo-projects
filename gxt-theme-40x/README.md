@@ -86,6 +86,7 @@ There is more than one to style widgets. Check out some of the tips and tricks f
 - Another way to style the **grid selection** (3). [See the gist.](https://gist.github.com/branflake2267/c1bf2512a8fd579978861b7c703260b5)
 - Another way to show the **dirty icon** in the grid. [See the gist.](https://gist.github.com/branflake2267/58d2a7dfc3458a60843a13cb944ec192)
 - Another way to **disable the button** in a grid. [See the gist.](https://gist.github.com/branflake2267/1c4fca8998a8d6e71d388237f3d1b6c0)
+- Split grid or **locking grid** example. [See the gist.](https://gist.github.com/branflake2267/d5f7b546f7c0dbe83df07a2d4d687695)
 
 ### Trees
 
