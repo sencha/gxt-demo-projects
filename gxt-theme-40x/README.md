@@ -52,5 +52,6 @@ This images covers where the theme module stores the themes appearances and asso
 
 ## Tips & Tricks
 
-- Another way to change the button color for modern browsers only. [See the gist](https://gist.github.com/branflake2267/cb0d0046f26e8c4776a170b4818fa3be). 
+- Another way to change the button color for modern browsers only. [See the gist.](https://gist.github.com/branflake2267/cb0d0046f26e8c4776a170b4818fa3be). 
+- Another way to style the grid using the ViewConfig. [See the gist.](https://gist.github.com/branflake2267/c1bf2512a8fd579978861b7c703260b5)
 
