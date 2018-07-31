@@ -58,7 +58,9 @@ This images covers where the theme module stores the themes appearances and asso
 - Another way to layout the **tree**. [See the gist.](https://gist.github.com/branflake2267/df29948ae4e5de7b4cc0e289f0c96b88)
 
 
-### Font Icons
+### Icons
 - **Font Awesome** example with flexible layout. [See the gist](https://gist.github.com/branflake2267/34eff42cd92d71fe02bc6a27d7856a81)
-- **Material icons**. [See the Explorer Example](http://examples.sencha.com/gxt/4.0.3/#ExamplePlace:html_materialicons)
+- **Material icons**. [See the Explorer Example.](http://examples.sencha.com/gxt/4.0.3/#ExamplePlace:html_materialicons)
 
+### Fonts
+- **Web Fonts**. [See the Explorer Example.](http://examples.sencha.com/gxt/4.0.3/#ExamplePlace:html_webfont)
