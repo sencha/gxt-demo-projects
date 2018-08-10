@@ -58,6 +58,8 @@ This video covers extending the GXT appearance, and providing your own css styli
 #### Theme File Locations
 This images covers where the theme module stores the themes appearances and associated ClientBundle resources. 
 
+* NOTE: The `Triton*` class names in the image have been renamed to `Tritium*`.
+
 [![Theme File Locations](https://github.com/sencha/gxt-demo-projects/blob/master/Theme_Files.png)](https://github.com/sencha/gxt-demo-projects/blob/master/Theme_Files.png)
 
 
