@@ -12,16 +12,16 @@ import tld.domain.project.theme.tritium.client.base.button.Css3ButtonCellAppeara
 
 import com.google.gwt.resources.client.ImageResource.ImageOptions;
 
-public class TritonButtonCellAppearance<M> extends Css3ButtonCellAppearance<M> {
+public class TritiumButtonCellAppearance<M> extends Css3ButtonCellAppearance<M> {
 
-  public interface TritonButtonStyle extends Css3ButtonStyle {
+  public interface TritiumButtonStyle extends Css3ButtonStyle {
   }
 
-  public TritonButtonCellAppearance() {
+  public TritiumButtonCellAppearance() {
     this(GWT.<Css3ButtonCellAppearance.Css3ButtonResources> create(Css3ButtonResources.class));
   }
 
-  public TritonButtonCellAppearance(Css3ButtonResources resources) {
+  public TritiumButtonCellAppearance(Css3ButtonResources resources) {
     super(resources);
   }
 

@@ -4,13 +4,13 @@ import com.google.gwt.core.client.GWT;
 import com.google.gwt.resources.client.ImageResource;
 import com.sencha.gxt.theme.base.client.field.HtmlEditorDefaultAppearance;
 
-public class TritonHtmlEditorAppearance extends HtmlEditorDefaultAppearance {
+public class TritiumHtmlEditorAppearance extends HtmlEditorDefaultAppearance {
 
-  public interface TritonHtmlEditorResources extends HtmlEditorResources {
+  public interface TritiumHtmlEditorResources extends HtmlEditorResources {
 
     @Source({"com/sencha/gxt/theme/base/client/field/HtmlEditor.gss"})
     @Override
-    TritonHtmlEditorStyle css();
+    TritiumHtmlEditorStyle css();
 
     ImageResource bold();
 
@@ -41,10 +41,10 @@ public class TritonHtmlEditorAppearance extends HtmlEditorDefaultAppearance {
     ImageResource underline();
   }
 
-  public interface TritonHtmlEditorStyle extends HtmlEditorStyle {
+  public interface TritiumHtmlEditorStyle extends HtmlEditorStyle {
   }
 
-  public TritonHtmlEditorAppearance() {
-    super(GWT.<TritonHtmlEditorResources> create(TritonHtmlEditorResources.class));
+  public TritiumHtmlEditorAppearance() {
+    super(GWT.<TritiumHtmlEditorResources> create(TritiumHtmlEditorResources.class));
   }
 }

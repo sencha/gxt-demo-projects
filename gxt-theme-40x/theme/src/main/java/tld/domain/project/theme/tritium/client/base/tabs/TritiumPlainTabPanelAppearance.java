@@ -4,13 +4,13 @@ import com.google.gwt.core.client.GWT;
 import com.google.gwt.resources.client.ImageResource;
 import com.google.gwt.resources.client.ImageResource.ImageOptions;
 
-public class TritonPlainTabPanelAppearance extends Css3PlainTabPanelAppearance {
+public class TritiumPlainTabPanelAppearance extends Css3PlainTabPanelAppearance {
 
-  public interface TritonPlainTabPanelResources extends Css3PlainTabPanelResources {
+  public interface TritiumPlainTabPanelResources extends Css3PlainTabPanelResources {
 
     @Override
-    @Source({"Css3TabPanel.gss", "Css3PlainTabPanel.gss", "TritonPlainTabPanel.gss"})
-    TritonPlainTabPanelStyle style();
+    @Source({"Css3TabPanel.gss", "Css3PlainTabPanel.gss", "TritiumPlainTabPanel.gss"})
+    TritiumPlainTabPanelStyle style();
 
     @Override
     @ImageOptions(height = 16, width = 16)
@@ -29,10 +29,10 @@ public class TritonPlainTabPanelAppearance extends Css3PlainTabPanelAppearance {
     ImageResource plainTabCloseOver();
   }
 
-  public interface TritonPlainTabPanelStyle extends Css3PlainTabPanelStyle {
+  public interface TritiumPlainTabPanelStyle extends Css3PlainTabPanelStyle {
   }
 
-  public TritonPlainTabPanelAppearance() {
-    super(GWT.<TritonPlainTabPanelResources> create(TritonPlainTabPanelResources.class));
+  public TritiumPlainTabPanelAppearance() {
+    super(GWT.<TritiumPlainTabPanelResources> create(TritiumPlainTabPanelResources.class));
   }
 }
