@@ -6,32 +6,32 @@
 
   <inherits name="tld.domain.project.theme.tritium.BaseTheme"/>
 
-  <replace-with class="tld.domain.project.theme.tritium.custom.client.button.TritonButtonCellAppearance">
+  <replace-with class="tld.domain.project.theme.tritium.custom.client.button.TritiumButtonCellAppearance">
     <when-type-is class="com.sencha.gxt.cell.core.client.ButtonCell.ButtonCellAppearance"/>
     <when-property-is name="gxt.theme" value="tritium"/>
   </replace-with>
 
-  <replace-with class="tld.domain.project.theme.tritium.custom.client.button.TritonButtonCellToolBarAppearance">
+  <replace-with class="tld.domain.project.theme.tritium.custom.client.button.TritiumButtonCellToolBarAppearance">
     <when-type-is class="com.sencha.gxt.cell.core.client.ButtonCell.ButtonCellAppearance"/>
     <when-property-is name="gxt.theme" value="tritium"/>
   </replace-with>
 
-  <replace-with class="tld.domain.project.theme.tritium.custom.client.field.TritonCheckBoxAppearance">
+  <replace-with class="tld.domain.project.theme.tritium.custom.client.field.TritiumCheckBoxAppearance">
     <when-type-is class="com.sencha.gxt.cell.core.client.form.CheckBoxCell.CheckBoxAppearance"/>
     <when-property-is name="gxt.theme" value="tritium"/>
   </replace-with>
 
-  <replace-with class="tld.domain.project.theme.tritium.custom.client.field.TritonRadioAppearance">
+  <replace-with class="tld.domain.project.theme.tritium.custom.client.field.TritiumRadioAppearance">
     <when-type-is class="com.sencha.gxt.cell.core.client.form.RadioCell.RadioAppearance"/>
     <when-property-is name="gxt.theme" value="tritium"/>
   </replace-with>
 
-  <replace-with class="tld.domain.project.theme.tritium.custom.client.field.TritonHtmlEditorAppearance">
+  <replace-with class="tld.domain.project.theme.tritium.custom.client.field.TritiumHtmlEditorAppearance">
     <when-type-is class="com.sencha.gxt.widget.core.client.form.HtmlEditor.HtmlEditorAppearance"/>
     <when-property-is name="gxt.theme" value="tritium"/>
   </replace-with>
 
-  <replace-with class="tld.domain.project.theme.tritium.custom.client.slider.TritonHorizontalSliderAppearance">
+  <replace-with class="tld.domain.project.theme.tritium.custom.client.slider.TritiumHorizontalSliderAppearance">
     <any>
       <when-type-is class="com.sencha.gxt.cell.core.client.SliderCell.SliderAppearance"/>
       <when-type-is class="com.sencha.gxt.cell.core.client.SliderCell.HorizontalSliderAppearance"/>
@@ -39,32 +39,32 @@
     <when-property-is name="gxt.theme" value="tritium"/>
   </replace-with>
 
-  <replace-with class="tld.domain.project.theme.tritium.custom.client.slider.TritonVerticalSliderAppearance">
+  <replace-with class="tld.domain.project.theme.tritium.custom.client.slider.TritiumVerticalSliderAppearance">
     <when-type-is class="com.sencha.gxt.cell.core.client.SliderCell.VerticalSliderAppearance"/>
     <when-property-is name="gxt.theme" value="tritium"/>
   </replace-with>
 
-  <replace-with class="tld.domain.project.theme.tritium.client.base.tabs.TritonPlainTabPanelAppearance">
+  <replace-with class="tld.domain.project.theme.tritium.client.base.tabs.TritiumPlainTabPanelAppearance">
     <when-type-is class="com.sencha.gxt.widget.core.client.PlainTabPanel.PlainTabPanelAppearance"/>
     <when-property-is name="gxt.theme" value="tritium"/>
   </replace-with>
 
-  <replace-with class="tld.domain.project.theme.tritium.client.base.tabs.TritonPlainTabPanelBottomAppearance">
+  <replace-with class="tld.domain.project.theme.tritium.client.base.tabs.TritiumPlainTabPanelBottomAppearance">
     <when-type-is class="com.sencha.gxt.widget.core.client.PlainTabPanel.PlainTabPanelBottomAppearance"/>
     <when-property-is name="gxt.theme" value="tritium"/>
   </replace-with>
 
-  <replace-with class="tld.domain.project.theme.tritium.client.base.tabs.TritonTabPanelAppearance">
+  <replace-with class="tld.domain.project.theme.tritium.client.base.tabs.TritiumTabPanelAppearance">
     <when-type-is class="com.sencha.gxt.widget.core.client.TabPanel.TabPanelAppearance"/>
     <when-property-is name="gxt.theme" value="tritium"/>
   </replace-with>
 
-  <replace-with class="tld.domain.project.theme.tritium.client.base.tabs.TritonTabPanelBottomAppearance">
+  <replace-with class="tld.domain.project.theme.tritium.client.base.tabs.TritiumTabPanelBottomAppearance">
     <when-type-is class="com.sencha.gxt.widget.core.client.TabPanel.TabPanelBottomAppearance"/>
     <when-property-is name="gxt.theme" value="tritium"/>
   </replace-with>
 
-  <replace-with class="tld.domain.project.theme.tritium.custom.client.toolbar.TritonToolBarAppearance">
+  <replace-with class="tld.domain.project.theme.tritium.custom.client.toolbar.TritiumToolBarAppearance">
     <when-type-is class="com.sencha.gxt.widget.core.client.toolbar.ToolBar.ToolBarAppearance"/>
     <when-property-is name="gxt.theme" value="tritium"/>
   </replace-with>

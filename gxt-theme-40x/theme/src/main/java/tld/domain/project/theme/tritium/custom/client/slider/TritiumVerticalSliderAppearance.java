@@ -6,28 +6,28 @@ import com.google.gwt.resources.client.ImageResource.ImageOptions;
 
 import tld.domain.project.theme.tritium.client.base.slider.Css3VerticalSliderAppearance;
 
-public class TritonVerticalSliderAppearance extends Css3VerticalSliderAppearance {
+public class TritiumVerticalSliderAppearance extends Css3VerticalSliderAppearance {
 
-  public interface TritonVerticalSliderResources extends Css3VerticalSliderResources {
+  public interface TritiumVerticalSliderResources extends Css3VerticalSliderResources {
 
     @Source({"tld/domain/project/theme/tritium/client/base/slider/Css3HorizontalSlider.gss",
             "tld/domain/project/theme/tritium/client/base/slider/Css3VerticalSlider.gss",
-            "TritonSlider.gss", 
-            "TritonVerticalSlider.gss"})
-    TritonVerticalSliderStyle style();
+            "TritiumSlider.gss", 
+            "TritiumVerticalSlider.gss"})
+    TritiumVerticalSliderStyle style();
 
     @ImageOptions(height = 20, width = 20)
     ImageResource sliderThumbVertical();
   }
 
-  public interface TritonVerticalSliderStyle extends Css3VerticalSliderStyle {
+  public interface TritiumVerticalSliderStyle extends Css3VerticalSliderStyle {
   }
 
-  public TritonVerticalSliderAppearance() {
-    this(GWT.<TritonVerticalSliderResources> create(TritonVerticalSliderResources.class));
+  public TritiumVerticalSliderAppearance() {
+    this(GWT.<TritiumVerticalSliderResources> create(TritiumVerticalSliderResources.class));
   }
 
-  public TritonVerticalSliderAppearance(TritonVerticalSliderResources resources) {
+  public TritiumVerticalSliderAppearance(TritiumVerticalSliderResources resources) {
     super(resources);
   }
 }
