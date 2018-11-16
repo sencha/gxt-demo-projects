@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.7.0//EN"
+    "http://gwtproject.org/doctype/2.7.0/gwt-module.dtd">
+<module>
+  <inherits name="com.google.gwt.user.User" />
+  <inherits name="com.google.gwt.logging.LoggingDisabled" />
+  <inherits name="com.google.gwt.i18n.I18N" />
+
+  <define-property name="gxt.logging.enabled" values="true,false" />
+  <set-property name="gxt.logging.enabled" value="false" />
+
+  <generate-with class="com.sencha.gxt.core.rebind.XTemplatesGenerator">
+    <when-type-assignable class="com.sencha.gxt.core.client.XTemplates" />
+  </generate-with>
+
+  <replace-with class="com.sencha.gxt.core.client.dom.Mask.MaskDefaultAppearance">
+    <when-type-is class="com.sencha.gxt.core.client.dom.Mask.MaskAppearance" />
+  </replace-with>
+
+  <replace-with class="com.sencha.gxt.core.client.resources.CommonStyles.CommonStylesDefaultAppearance">
+    <when-type-is class="com.sencha.gxt.core.client.resources.CommonStyles.CommonStylesAppearance" />
+  </replace-with>
+
+  <source path="client" />
+  <source path="shared" />
+  <!-- 'resource' is backwards compatible - this causes IDE xml parse error -->
+  <resource path="public" />
+
+  <!-- build permutations for OS -->
+  <define-property name="user.agent.os" values="mac,linux,windows,unknown" />
+  <property-provider name="user.agent.os"><![CDATA[
+    var ua = $wnd.navigator.userAgent.toLowerCase();
+    if (ua.indexOf("macintosh") != -1 || ua.indexOf("mac os x") != -1) {
+      return "mac";
+    }
+    if (ua.indexOf("linux") != -1) {
+      return "linux";
+    }
+    if (ua.indexOf("windows") != -1 || ua.indexOf("win32") != -1) {
+      return "windows";
+    }
+    return "unknown";
+  ]]></property-provider>
+
+  <!-- Add more user agents and redefine how one is selected -->
+  <define-property name="gxt.user.agent" values="ie8" />
+  <extend-property name="gxt.user.agent" values="ie9" />
+  <extend-property name="gxt.user.agent" values="ie10" />
+  <extend-property name="gxt.user.agent" values="ie11" />
+  <extend-property name="gxt.user.agent" values="edge" />
+  <extend-property name="gxt.user.agent" values="gecko1_8" />
+  <extend-property name="gxt.user.agent" values="gecko1_9" />
+
+  <extend-property name="gxt.user.agent" values="safari3" />
+  <extend-property name="gxt.user.agent" values="safari4" />
+  <extend-property name="gxt.user.agent" values="safari5" />
+  <extend-property name="gxt.user.agent" values="chrome" />
+  <extend-property name="gxt.user.agent" values="air" />
+
+  <!-- Decide which GXT user.agent setting to apply -->
+  <property-provider name="gxt.user.agent" generator="com.sencha.gxt.core.rebind.useragent.UserAgentPropertyGenerator" />
+
+  <collapse-property name="gxt.user.agent" values="safari5,edge" />
+
+  <!-- Restrict the permutation explosion -->
+  <set-property name="user.agent" value="ie8">
+    <when-property-is name="gxt.user.agent" value="ie8" />
+  </set-property>
+  <set-property name="user.agent" value="ie9">
+    <when-property-is name="gxt.user.agent" value="ie9" />
+  </set-property>
+  <set-property name="user.agent" value="ie10">
+    <when-property-is name="gxt.user.agent" value="ie10" />
+  </set-property>
+  <!-- TODO GWT does not support ie11 as a user.agent value yet <set-property name="user.agent" value="ie11"> <when-property-is 
+    name="gxt.user.agent" value="ie11" /> </set-property> -->
+  <set-property name="user.agent" value="gecko1_8">
+    <any>
+      <when-property-is name="gxt.user.agent" value="gecko1_8" />
+      <when-property-is name="gxt.user.agent" value="gecko1_9" />
+    </any>
+  </set-property>
+  <set-property name="user.agent" value="safari">
+    <any>
+      <when-property-is name="gxt.user.agent" value="safari3" />
+      <when-property-is name="gxt.user.agent" value="safari4" />
+      <when-property-is name="gxt.user.agent" value="safari5" />
+      <when-property-is name="gxt.user.agent" value="air" />
+      <when-property-is name="gxt.user.agent" value="chrome" />
+    </any>
+  </set-property>
+
+  <!-- Decide which GXT device type -->
+  <define-property name="gxt.device" values="phone,tablet,desktop" />
+  <property-provider name="gxt.device"><![CDATA[
+       var agent = navigator.userAgent;
+       if (agent.match(/Android/i)) {
+         return "tablet";
+       } else if (agent.match(/BlackBerry/i)) {
+         return "tablet";
+       } else if (agent.match(/iPhone|iPad|iPod/i)) {
+         return "tablet";
+       } else if (agent.match(/IEMobile/i)) {
+         return "tablet";
+       } else if (agent.match(/Tablet PC/i)) {
+         return "tablet";
+       }
+       return "desktop";
+     ]]></property-provider>
+
+  <set-configuration-property name="CssResource.enableGss" value="true" />
+
+  <generate-with class="com.sencha.gxt.core.rebind.BindingPropertyGenerator">
+    <when-type-assignable class="com.sencha.gxt.core.client.BindingPropertySet" />
+  </generate-with>
+
+  <!-- Layer appearance -->
+  <replace-with class="com.sencha.gxt.core.client.dom.Layer.LayerBaseAppearance">
+    <when-type-is class="com.sencha.gxt.core.client.dom.Layer.LayerAppearance" />
+  </replace-with>
+
+  <replace-with class="com.sencha.gxt.core.client.dom.Layer.LayerBaseAppearanceIe">
+    <when-type-is class="com.sencha.gxt.core.client.dom.Layer.LayerAppearance" />
+    <any>
+      <when-property-is name="gxt.user.agent" value="ie8" />
+      <when-property-is name="gxt.user.agent" value="ie9" />
+    </any>
+  </replace-with>
+
+  <replace-with class="com.sencha.gxt.core.client.dom.impl.ComputedStyleImplIE">
+    <when-type-is class="com.sencha.gxt.core.client.dom.impl.ComputedStyleImpl" />
+    <any>
+      <when-property-is name="gxt.user.agent" value="ie8" />
+    </any>
+  </replace-with>
+
+  <replace-with class="com.sencha.gxt.core.client.gestures.impl.PointerEventsSupportImpl">
+    <when-type-is class="com.sencha.gxt.core.client.gestures.PointerEventsSupport" />
+    <any>
+      <all>
+        <when-property-is name="gxt.device" value="tablet" />
+        <any>
+          <when-property-is name="gxt.user.agent" value="ie10" />
+          <when-property-is name="gxt.user.agent" value="ie11" />
+        </any>
+      </all>
+      <when-property-is name="gxt.user.agent" value="edge" />
+    </any>
+  </replace-with>
+</module>

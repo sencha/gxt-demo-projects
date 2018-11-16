@@ -1,0 +1,50 @@
+/* https://material.io/tools/color/#!/?view.left=0&view.right=0&primary.color=9C27B0 */
+@def GRADIENT #9c27b0;
+@def BACKGROUND_COLOR #9c27b0;
+@def BORDER_COLOR #9c27b0;
+
+/* Over Color */
+@def OVER_BACKGROUND_COLOR #d05ce3;
+@def PRESSED_BACKGROUND_COLOR #d05ce3;
+
+
+/* Pressed Color */
+@def PRESSED_BACKGROUND_COLOR #ff867c;
+@def PRESSED_GRADIENT #ff867c;
+
+
+/* Focused Color */
+@def OVER_BACKGROUND_COLOR #6a0080;
+@def OVER_GRADIENT #6a0080;
+
+
+.button {
+  border-color: BORDER_COLOR;
+  background: BACKGROUND_COLOR;
+  /* @alternate */ background: -webkit-linear-gradient(top, GRADIENT);
+  /* @alternate */ background: -ms-linear-gradient(top, GRADIENT);
+  /* @alternate */ background: linear-gradient(to bottom, GRADIENT);
+}
+
+
+/* classes have been copied from super gss */
+.over {
+  background: OVER_BACKGROUND_COLOR;
+  /* @alternate */ background: -webkit-linear-gradient(top, OVER_GRADIENT);
+  /* @alternate */ background: -ms-linear-gradient(top, OVER_GRADIENT);
+  /* @alternate */ background: linear-gradient(to bottom, OVER_GRADIENT);
+}
+
+.pressed {
+  background: PRESSED_BACKGROUND_COLOR !important;
+  /* @alternate */ background: -webkit-linear-gradient(top, PRESSED_GRADIENT) !important;
+  /* @alternate */ background: -ms-linear-gradient(top, PRESSED_GRADIENT) !important;
+  /* @alternate */ background: linear-gradient(to bottom, PRESSED_GRADIENT) !important;
+}
+
+.focused {
+  background: OVER_BACKGROUND_COLOR;
+  /* @alternate */ background: -webkit-linear-gradient(top, OVER_GRADIENT);
+  /* @alternate */ background: -ms-linear-gradient(top, OVER_GRADIENT);
+  /* @alternate */ background: linear-gradient(to bottom, OVER_GRADIENT);
+}
