@@ -1,0 +1,7 @@
+* {
+  fill: <%= config.get('theme.details.tabs.activePlainTabCloseIconColor').resolveString() %>;
+}
+
+*[state='Over'] * {
+  fill: <%= config.get('theme.details.tabs.activePlainTabCloseOverIconColor').resolveString() %>;
+}

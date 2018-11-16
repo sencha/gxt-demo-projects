@@ -1,0 +1,50 @@
+
+@def GRADIENT #ef5350;
+@def BACKGROUND_COLOR #ef5350;
+@def BORDER_COLOR #ef5350;
+
+/* Over Color */
+@def OVER_BACKGROUND_COLOR #ef5350;
+@def PRESSED_BACKGROUND_COLOR #ef5350;
+
+
+/* Pressed Color */
+@def PRESSED_BACKGROUND_COLOR #ff867c;
+@def PRESSED_GRADIENT #ff867c;
+
+
+/* Focused Color */
+@def OVER_BACKGROUND_COLOR #b61827;
+@def OVER_GRADIENT #b61827;
+
+
+.button {
+  border-color: BORDER_COLOR;
+  background: BACKGROUND_COLOR;
+  /* @alternate */ background: -webkit-linear-gradient(top, GRADIENT);
+  /* @alternate */ background: -ms-linear-gradient(top, GRADIENT);
+  /* @alternate */ background: linear-gradient(to bottom, GRADIENT);
+}
+
+
+/* classes have been copied from super gss */
+.over {
+  background: OVER_BACKGROUND_COLOR;
+  /* @alternate */ background: -webkit-linear-gradient(top, OVER_GRADIENT);
+  /* @alternate */ background: -ms-linear-gradient(top, OVER_GRADIENT);
+  /* @alternate */ background: linear-gradient(to bottom, OVER_GRADIENT);
+}
+
+.pressed {
+  background: PRESSED_BACKGROUND_COLOR !important;
+  /* @alternate */ background: -webkit-linear-gradient(top, PRESSED_GRADIENT) !important;
+  /* @alternate */ background: -ms-linear-gradient(top, PRESSED_GRADIENT) !important;
+  /* @alternate */ background: linear-gradient(to bottom, PRESSED_GRADIENT) !important;
+}
+
+.focused {
+  background: OVER_BACKGROUND_COLOR;
+  /* @alternate */ background: -webkit-linear-gradient(top, OVER_GRADIENT);
+  /* @alternate */ background: -ms-linear-gradient(top, OVER_GRADIENT);
+  /* @alternate */ background: linear-gradient(to bottom, OVER_GRADIENT);
+}

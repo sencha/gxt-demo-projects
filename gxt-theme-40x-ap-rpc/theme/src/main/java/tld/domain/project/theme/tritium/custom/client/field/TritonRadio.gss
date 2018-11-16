@@ -1,0 +1,17 @@
+@if(!is("user.agent", "ie8")) {
+  input[type="radio"] {
+    display: none;
+  }
+
+  input[type="radio"] + span {
+    display:inline-block;
+    margin: -2px 0px 0px 0px;
+    vertical-align: middle;
+    gwt-sprite: "radioUnselected";
+    cursor: pointer;
+  }
+
+  input[type="radio"]:checked + span {
+    gwt-sprite: "radioSelected";
+  }
+}

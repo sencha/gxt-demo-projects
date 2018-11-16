@@ -1,0 +1,8 @@
+
+rect {
+  fill: <%= config.get('theme.details.toolbar.buttonOverride.border.color').resolveString() %>;
+}
+
+polyline {
+  fill: <%= config.get('theme.details.toolbar.buttonOverride.arrowColor').resolveString() %>;
+}
