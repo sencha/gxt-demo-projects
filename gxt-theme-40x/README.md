@@ -51,7 +51,7 @@ Extending the theme allows you full control of the GSS, styles, and widget look 
 
 <img src="coloredbuttons.png">
 
-* [Project EntryPoint With buttons](https://github.com/sencha/gxt-demo-projects/blob/master/gxt-theme-40x/application/src/main/java/tld/domain/project/client/ProjectEntryPoint.java#L36)
+* [Project EntryPoint with buttons](https://github.com/sencha/gxt-demo-projects/blob/master/gxt-theme-40x/application/src/main/java/tld/domain/project/client/ProjectEntryPoint.java#L36)
 * [Red Button Appearance](https://github.com/sencha/gxt-demo-projects/tree/master/gxt-theme-40x/theme/src/main/java/tld/domain/project/theme/tritium/custom/client/button/red)
 * [Purple Button Appearance](https://github.com/sencha/gxt-demo-projects/tree/master/gxt-theme-40x/theme/src/main/java/tld/domain/project/theme/tritium/custom/client/button/purple)
 
