@@ -47,7 +47,15 @@ I like to suggest using gss variables in a global gss file that cascades into al
 ### Extending the theme
 Extending the theme allows you full control of the GSS, styles, and widget look and styling. 
 
-#### Extending GXT Appearance
+#### Extending Button Appearance Example
+
+<img src="coloredbuttons.png">
+
+* [Project EntryPoint With buttons](https://github.com/sencha/gxt-demo-projects/blob/master/gxt-theme-40x/application/src/main/java/tld/domain/project/client/ProjectEntryPoint.java#L36)
+* [Red Button Appearance](https://github.com/sencha/gxt-demo-projects/tree/master/gxt-theme-40x/theme/src/main/java/tld/domain/project/theme/tritium/custom/client/button/red)
+* [Purple Button Appearance](https://github.com/sencha/gxt-demo-projects/tree/master/gxt-theme-40x/theme/src/main/java/tld/domain/project/theme/tritium/custom/client/button/purple)
+
+#### Extending GXT Appearances
 This video covers extending the GXT appearance, and providing your own css styling.
 
 [![GXT 101 - Extending Appearances](https://img.youtube.com/vi/MQEmQ1McCZk/0.jpg)](https://www.youtube.com/watch?v=MQEmQ1McCZk)
