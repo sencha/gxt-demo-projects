@@ -65,6 +65,7 @@ This video covers extending the GXT appearance, and providing your own css styli
 
 * [Button Extension From this Repo](https://github.com/sencha/gxt-demo-projects/tree/master/gxt-theme-40x/theme/src/main/java/tld/domain/project/theme/tritium/custom/client/button)
 * [ButtonCellAppearance Extension Example](https://gist.github.com/branflake2267/18dd8030595f67c0c43ea192353aff3d)
+* [Custom Split Button Cell Appearance](https://gist.github.com/branflake2267/671f57ac6dbb3498c936a47d5db9147a)
 
 #### Theme File Locations
 This images covers where the theme module stores the themes appearances and associated ClientBundle resources. 
