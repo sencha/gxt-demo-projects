@@ -3,6 +3,9 @@ This is a very basic GXT project with a theme module.
 
 [![Sencha](http://cdn.sencha.com/img/gwt-eclipse-plugin-banner.png)](https://www.sencha.com/products/gxt/)
 
+## Generate Project
+You can generate your own project based on this project using this [Maven Archtype](https://github.com/sencha/gxt-archetypes/tree/master/archetypes/gxt-theme-40x).
+
 ## Requirements
 
 * [Java JDK](https://docs.sencha.com/gxt/4.x/guides/getting_started/Versions.html) - ([GXT Versions Matrix Reference](https://docs.sencha.com/gxt/4.x/guides/getting_started/Versions.html))
