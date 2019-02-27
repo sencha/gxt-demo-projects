@@ -100,6 +100,7 @@ There is more than one to style widgets. Check out some of the tips and tricks f
 - Custom tool button using icon. [See the gist.](https://gist.github.com/branflake2267/d3df69c1e4867f9aade28c2ff641835a)
 - Another way to style toggle buttons. [See the gist.](https://gist.github.com/branflake2267/89e1e1552371879539e30b1254bd65d8)
 - Another way to style the tab panel bar. [See the gist.](https://gist.github.com/branflake2267/0729169213c570243f369146d326d606)
+- Custom Split Button. [See the gist.](https://gist.github.com/branflake2267/56d4778e4bfcf78d845d7017dfb73ea9)
 
 ### Grids
 
